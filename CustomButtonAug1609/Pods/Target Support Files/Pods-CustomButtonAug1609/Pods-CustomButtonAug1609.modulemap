@@ -1,0 +1,6 @@
+framework module Pods_CustomButtonAug1609 {
+  umbrella header "Pods-CustomButtonAug1609-umbrella.h"
+
+  export *
+  module * { export * }
+}

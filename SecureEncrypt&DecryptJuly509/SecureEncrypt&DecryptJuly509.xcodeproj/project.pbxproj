@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235BAFEE22CF37F6009D8E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BAFED22CF37F6009D8E95 /* AppDelegate.swift */; };
+		235BAFF022CF37F6009D8E95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BAFEF22CF37F6009D8E95 /* ViewController.swift */; };
+		235BAFF322CF37F6009D8E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235BAFF122CF37F6009D8E95 /* Main.storyboard */; };
+		235BAFF522CF37F7009D8E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235BAFF422CF37F7009D8E95 /* Assets.xcassets */; };
+		235BAFF822CF37F7009D8E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235BAFF622CF37F7009D8E95 /* LaunchScreen.storyboard */; };
+		235BB00322CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BB00222CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509Tests.swift */; };
+		235BB00E22CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BB00D22CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509UITests.swift */; };
+		235BB01C22CF3AAF009D8E95 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BB01B22CF3AAF009D8E95 /* AES256.swift */; };
+		236F3F2623253310003375FE /* AES256Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F3F2523253310003375FE /* AES256Service.swift */; };
+		236F3F2923253391003375FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F3F2823253391003375FE /* Constants.swift */; };
+		23C2FEAA232425E0001C850E /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C2FEA9232425E0001C850E /* CryptoService.swift */; };
+		23FD043823276BE100AADABB /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FD043723276BE100AADABB /* Backup.swift */; };
+		7F88D65061EB4BDF3D3F53E0 /* Pods_SecureEncrypt_DecryptJuly509.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8D6C72C7DE7D5337CC08A9 /* Pods_SecureEncrypt_DecryptJuly509.framework */; };
+		A6F568DB1DA515DDC3B3A704 /* Pods_SecureEncrypt_DecryptJuly509Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B600BA9F7E54739A5A6C4D /* Pods_SecureEncrypt_DecryptJuly509Tests.framework */; };
+		D1C67F2C35557738BD638698 /* Pods_SecureEncrypt_DecryptJuly509UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38351AA83FA581B7BEE2E52 /* Pods_SecureEncrypt_DecryptJuly509UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		235BAFFF22CF37F8009D8E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 235BAFE222CF37F6009D8E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235BAFE922CF37F6009D8E95;
+			remoteInfo = "SecureEncrypt&DecryptJuly509";
+		};
+		235BB00A22CF37F8009D8E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 235BAFE222CF37F6009D8E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235BAFE922CF37F6009D8E95;
+			remoteInfo = "SecureEncrypt&DecryptJuly509";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067E398476C7E13CC90AFF76 /* Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig"; path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509UITests/Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig"; sourceTree = "<group>"; };
+		235BAFEA22CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SecureEncrypt&DecryptJuly509.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		235BAFED22CF37F6009D8E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		235BAFEF22CF37F6009D8E95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		235BAFF222CF37F6009D8E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		235BAFF422CF37F7009D8E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		235BAFF722CF37F7009D8E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		235BAFF922CF37F7009D8E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235BAFFE22CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SecureEncrypt&DecryptJuly509Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		235BB00222CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEncrypt_DecryptJuly509Tests.swift; sourceTree = "<group>"; };
+		235BB00422CF37F8009D8E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235BB00922CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SecureEncrypt&DecryptJuly509UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		235BB00D22CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEncrypt_DecryptJuly509UITests.swift; sourceTree = "<group>"; };
+		235BB00F22CF37F8009D8E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235BB01B22CF3AAF009D8E95 /* AES256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256.swift; sourceTree = "<group>"; };
+		236F3F2523253310003375FE /* AES256Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256Service.swift; sourceTree = "<group>"; };
+		236F3F2823253391003375FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		23C2FEA9232425E0001C850E /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		23FD043723276BE100AADABB /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
+		61F5FFDD6BB7245A7ED6E447 /* Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig"; path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509Tests/Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		69B600BA9F7E54739A5A6C4D /* Pods_SecureEncrypt_DecryptJuly509Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureEncrypt_DecryptJuly509Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0E45E3CCE20693B099BEDD /* Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig"; path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509UITests/Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F00EC3D3020A7153A36777 /* Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig"; path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig"; sourceTree = "<group>"; };
+		C00FE4D6DC4D54E337C94AD9 /* Pods-SecureEncrypt&DecryptJuly509.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureEncrypt&DecryptJuly509.release.xcconfig"; path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509.release.xcconfig"; sourceTree = "<group>"; };
+		DC5EC4B3488B643F3BF99619 /* Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig"; path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509Tests/Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E38351AA83FA581B7BEE2E52 /* Pods_SecureEncrypt_DecryptJuly509UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureEncrypt_DecryptJuly509UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8D6C72C7DE7D5337CC08A9 /* Pods_SecureEncrypt_DecryptJuly509.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureEncrypt_DecryptJuly509.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		235BAFE722CF37F6009D8E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F88D65061EB4BDF3D3F53E0 /* Pods_SecureEncrypt_DecryptJuly509.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235BAFFB22CF37F8009D8E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F568DB1DA515DDC3B3A704 /* Pods_SecureEncrypt_DecryptJuly509Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235BB00622CF37F8009D8E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C67F2C35557738BD638698 /* Pods_SecureEncrypt_DecryptJuly509UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171AF1A3EAD579D968B6A469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD8D6C72C7DE7D5337CC08A9 /* Pods_SecureEncrypt_DecryptJuly509.framework */,
+				69B600BA9F7E54739A5A6C4D /* Pods_SecureEncrypt_DecryptJuly509Tests.framework */,
+				E38351AA83FA581B7BEE2E52 /* Pods_SecureEncrypt_DecryptJuly509UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		235BAFE122CF37F6009D8E95 = {
+			isa = PBXGroup;
+			children = (
+				235BAFEC22CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509 */,
+				235BB00122CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509Tests */,
+				235BB00C22CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509UITests */,
+				235BAFEB22CF37F6009D8E95 /* Products */,
+				2B0FBF71C931C6F353B83E8B /* Pods */,
+				171AF1A3EAD579D968B6A469 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		235BAFEB22CF37F6009D8E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				235BAFEA22CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509.app */,
+				235BAFFE22CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509Tests.xctest */,
+				235BB00922CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		235BAFEC22CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509 */ = {
+			isa = PBXGroup;
+			children = (
+				235BAFED22CF37F6009D8E95 /* AppDelegate.swift */,
+				235BAFF122CF37F6009D8E95 /* Main.storyboard */,
+				236F3F2823253391003375FE /* Constants.swift */,
+				236F3F2523253310003375FE /* AES256Service.swift */,
+				235BAFEF22CF37F6009D8E95 /* ViewController.swift */,
+				236F3F2723253367003375FE /* OldWay */,
+				235BAFF422CF37F7009D8E95 /* Assets.xcassets */,
+				235BAFF622CF37F7009D8E95 /* LaunchScreen.storyboard */,
+				235BAFF922CF37F7009D8E95 /* Info.plist */,
+			);
+			path = "SecureEncrypt&DecryptJuly509";
+			sourceTree = "<group>";
+		};
+		235BB00122CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509Tests */ = {
+			isa = PBXGroup;
+			children = (
+				235BB00222CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509Tests.swift */,
+				235BB00422CF37F8009D8E95 /* Info.plist */,
+			);
+			path = "SecureEncrypt&DecryptJuly509Tests";
+			sourceTree = "<group>";
+		};
+		235BB00C22CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509UITests */ = {
+			isa = PBXGroup;
+			children = (
+				235BB00D22CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509UITests.swift */,
+				235BB00F22CF37F8009D8E95 /* Info.plist */,
+			);
+			path = "SecureEncrypt&DecryptJuly509UITests";
+			sourceTree = "<group>";
+		};
+		236F3F2723253367003375FE /* OldWay */ = {
+			isa = PBXGroup;
+			children = (
+				23FD043723276BE100AADABB /* Backup.swift */,
+				235BB01B22CF3AAF009D8E95 /* AES256.swift */,
+				23C2FEA9232425E0001C850E /* CryptoService.swift */,
+			);
+			path = OldWay;
+			sourceTree = "<group>";
+		};
+		2B0FBF71C931C6F353B83E8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8F00EC3D3020A7153A36777 /* Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig */,
+				C00FE4D6DC4D54E337C94AD9 /* Pods-SecureEncrypt&DecryptJuly509.release.xcconfig */,
+				61F5FFDD6BB7245A7ED6E447 /* Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig */,
+				DC5EC4B3488B643F3BF99619 /* Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig */,
+				AC0E45E3CCE20693B099BEDD /* Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig */,
+				067E398476C7E13CC90AFF76 /* Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		235BAFE922CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235BB01222CF37F8009D8E95 /* Build configuration list for PBXNativeTarget "SecureEncrypt&DecryptJuly509" */;
+			buildPhases = (
+				6F03302F3295C5F1F686BF88 /* [CP] Check Pods Manifest.lock */,
+				235BAFE622CF37F6009D8E95 /* Sources */,
+				235BAFE722CF37F6009D8E95 /* Frameworks */,
+				235BAFE822CF37F6009D8E95 /* Resources */,
+				76056F432C36FE6B98917A03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SecureEncrypt&DecryptJuly509";
+			productName = "SecureEncrypt&DecryptJuly509";
+			productReference = 235BAFEA22CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509.app */;
+			productType = "com.apple.product-type.application";
+		};
+		235BAFFD22CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235BB01522CF37F8009D8E95 /* Build configuration list for PBXNativeTarget "SecureEncrypt&DecryptJuly509Tests" */;
+			buildPhases = (
+				55748F9BB7BF4320F87D709C /* [CP] Check Pods Manifest.lock */,
+				235BAFFA22CF37F8009D8E95 /* Sources */,
+				235BAFFB22CF37F8009D8E95 /* Frameworks */,
+				235BAFFC22CF37F8009D8E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235BB00022CF37F8009D8E95 /* PBXTargetDependency */,
+			);
+			name = "SecureEncrypt&DecryptJuly509Tests";
+			productName = "SecureEncrypt&DecryptJuly509Tests";
+			productReference = 235BAFFE22CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		235BB00822CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235BB01822CF37F8009D8E95 /* Build configuration list for PBXNativeTarget "SecureEncrypt&DecryptJuly509UITests" */;
+			buildPhases = (
+				93D15210F6758ED006410070 /* [CP] Check Pods Manifest.lock */,
+				235BB00522CF37F8009D8E95 /* Sources */,
+				235BB00622CF37F8009D8E95 /* Frameworks */,
+				235BB00722CF37F8009D8E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235BB00B22CF37F8009D8E95 /* PBXTargetDependency */,
+			);
+			name = "SecureEncrypt&DecryptJuly509UITests";
+			productName = "SecureEncrypt&DecryptJuly509UITests";
+			productReference = 235BB00922CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		235BAFE222CF37F6009D8E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Zin Lin Htet Naing";
+				TargetAttributes = {
+					235BAFE922CF37F6009D8E95 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					235BAFFD22CF37F8009D8E95 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 235BAFE922CF37F6009D8E95;
+					};
+					235BB00822CF37F8009D8E95 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 235BAFE922CF37F6009D8E95;
+					};
+				};
+			};
+			buildConfigurationList = 235BAFE522CF37F6009D8E95 /* Build configuration list for PBXProject "SecureEncrypt&DecryptJuly509" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 235BAFE122CF37F6009D8E95;
+			productRefGroup = 235BAFEB22CF37F6009D8E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				235BAFE922CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509 */,
+				235BAFFD22CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509Tests */,
+				235BB00822CF37F8009D8E95 /* SecureEncrypt&DecryptJuly509UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		235BAFE822CF37F6009D8E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235BAFF822CF37F7009D8E95 /* LaunchScreen.storyboard in Resources */,
+				235BAFF522CF37F7009D8E95 /* Assets.xcassets in Resources */,
+				235BAFF322CF37F6009D8E95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235BAFFC22CF37F8009D8E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235BB00722CF37F8009D8E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55748F9BB7BF4320F87D709C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureEncrypt&DecryptJuly509Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F03302F3295C5F1F686BF88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureEncrypt&DecryptJuly509-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76056F432C36FE6B98917A03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D15210F6758ED006410070 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureEncrypt&DecryptJuly509UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		235BAFE622CF37F6009D8E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C2FEAA232425E0001C850E /* CryptoService.swift in Sources */,
+				23FD043823276BE100AADABB /* Backup.swift in Sources */,
+				235BB01C22CF3AAF009D8E95 /* AES256.swift in Sources */,
+				236F3F2623253310003375FE /* AES256Service.swift in Sources */,
+				235BAFF022CF37F6009D8E95 /* ViewController.swift in Sources */,
+				235BAFEE22CF37F6009D8E95 /* AppDelegate.swift in Sources */,
+				236F3F2923253391003375FE /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235BAFFA22CF37F8009D8E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235BB00322CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235BB00522CF37F8009D8E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235BB00E22CF37F8009D8E95 /* SecureEncrypt_DecryptJuly509UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		235BB00022CF37F8009D8E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 235BAFE922CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509 */;
+			targetProxy = 235BAFFF22CF37F8009D8E95 /* PBXContainerItemProxy */;
+		};
+		235BB00B22CF37F8009D8E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 235BAFE922CF37F6009D8E95 /* SecureEncrypt&DecryptJuly509 */;
+			targetProxy = 235BB00A22CF37F8009D8E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		235BAFF122CF37F6009D8E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235BAFF222CF37F6009D8E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		235BAFF622CF37F7009D8E95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235BAFF722CF37F7009D8E95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		235BB01022CF37F8009D8E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		235BB01122CF37F8009D8E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		235BB01322CF37F8009D8E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F00EC3D3020A7153A36777 /* Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = "SecureEncrypt&DecryptJuly509/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycreationsiOS.SecureEncrypt-DecryptJuly509";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		235BB01422CF37F8009D8E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00FE4D6DC4D54E337C94AD9 /* Pods-SecureEncrypt&DecryptJuly509.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = "SecureEncrypt&DecryptJuly509/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycreationsiOS.SecureEncrypt-DecryptJuly509";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		235BB01622CF37F8009D8E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F5FFDD6BB7245A7ED6E447 /* Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = "SecureEncrypt&DecryptJuly509Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycreationsiOS.SecureEncrypt-DecryptJuly509Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureEncrypt&DecryptJuly509.app/SecureEncrypt&DecryptJuly509";
+			};
+			name = Debug;
+		};
+		235BB01722CF37F8009D8E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5EC4B3488B643F3BF99619 /* Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = "SecureEncrypt&DecryptJuly509Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycreationsiOS.SecureEncrypt-DecryptJuly509Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureEncrypt&DecryptJuly509.app/SecureEncrypt&DecryptJuly509";
+			};
+			name = Release;
+		};
+		235BB01922CF37F8009D8E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0E45E3CCE20693B099BEDD /* Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = "SecureEncrypt&DecryptJuly509UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycreationsiOS.SecureEncrypt-DecryptJuly509UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SecureEncrypt&DecryptJuly509";
+			};
+			name = Debug;
+		};
+		235BB01A22CF37F8009D8E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067E398476C7E13CC90AFF76 /* Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = "SecureEncrypt&DecryptJuly509UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycreationsiOS.SecureEncrypt-DecryptJuly509UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SecureEncrypt&DecryptJuly509";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		235BAFE522CF37F6009D8E95 /* Build configuration list for PBXProject "SecureEncrypt&DecryptJuly509" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235BB01022CF37F8009D8E95 /* Debug */,
+				235BB01122CF37F8009D8E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235BB01222CF37F8009D8E95 /* Build configuration list for PBXNativeTarget "SecureEncrypt&DecryptJuly509" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235BB01322CF37F8009D8E95 /* Debug */,
+				235BB01422CF37F8009D8E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235BB01522CF37F8009D8E95 /* Build configuration list for PBXNativeTarget "SecureEncrypt&DecryptJuly509Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235BB01622CF37F8009D8E95 /* Debug */,
+				235BB01722CF37F8009D8E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235BB01822CF37F8009D8E95 /* Build configuration list for PBXNativeTarget "SecureEncrypt&DecryptJuly509UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235BB01922CF37F8009D8E95 /* Debug */,
+				235BB01A22CF37F8009D8E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 235BAFE222CF37F6009D8E95 /* Project object */;
+}

@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  LocalizationsAutoConvertAug109
+
+  Created by Zin Lin Htet Naing on 8/1/19.
+  Copyright © 2019 Zin Lin Htet Naing. All rights reserved.
+*/
+
+"title" = "တိရိစ္ဆာန်များ";
+"lion" = "ခြင်္သေ့";
+"tiger" = "ကျား";
+"rabbit" = "ယုန်";
+"zebra" = "မြင်းကျား";
+"horse" = "မြင်း";
+"cat" = "ကြောင်";
+"pig" = "ဝက်";
+"goat" = "ဆိတ်";
+"monkey" = "မျောက်";
+"dog" = "ခွေး";
+"peacock" = "ဒောင်း";
+"bear" = "ဝက်ဝံ";
+
+
+
+
+
+

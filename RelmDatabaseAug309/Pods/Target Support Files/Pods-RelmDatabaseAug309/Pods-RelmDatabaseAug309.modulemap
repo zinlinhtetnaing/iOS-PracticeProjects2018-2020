@@ -1,0 +1,6 @@
+framework module Pods_RelmDatabaseAug309 {
+  umbrella header "Pods-RelmDatabaseAug309-umbrella.h"
+
+  export *
+  module * { export * }
+}

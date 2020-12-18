@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "466309DB-1C88-45C4-B4A9-140E2A470E7A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "166D8F44-04BA-4340-B95E-0AE632DCB11B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AuthenticationService2020/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "LoginViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "166D8F44-04BA-4340-B95E-0AE632DCB11B - d14864e450987603"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;__C.GIDGoogleUser, Swift.Error&gt;) -&gt; () in AuthenticationService2020.LoginViewController.handleSigninWithGoogle() -&gt; ()"
+                  moduleName = "AuthenticationService2020"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zinlinhtetnaing/Documents/My%20Testing%20iOS%20Project/AuthenticationService2020/AuthenticationService2020/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "166D8F44-04BA-4340-B95E-0AE632DCB11B - d14864e450987603"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;__C.GIDGoogleUser, Swift.Error&gt;) -&gt; () in AuthenticationService2020.LoginViewController.handleSigninWithGoogle() -&gt; ()"
+                  moduleName = "AuthenticationService2020"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zinlinhtetnaing/Documents/My%20Testing%20iOS%20Project/AuthenticationService2020/AuthenticationService2020/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "141">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05055259-688C-479F-B702-E0E2CE425B01"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AuthenticationService2020/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "LoginViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84650BDA-686A-430E-9039-5DFE4568B1F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AuthenticationService2020/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D624DAE1-FDC0-4B9D-A842-8EE4C390A7EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AuthenticationService2020/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "LoginViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "D624DAE1-FDC0-4B9D-A842-8EE4C390A7EB - 78b16a8406644f2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AuthenticationService2020.LoginViewController.handleSigninWithGoogle() -&gt; ()"
+                  moduleName = "AuthenticationService2020"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zinlinhtetnaing/Documents/My%20Testing%20iOS%20Project/AuthenticationService2020/AuthenticationService2020/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "83">
+               </Location>
+               <Location
+                  uuid = "D624DAE1-FDC0-4B9D-A842-8EE4C390A7EB - d14864e450987603"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;__C.GIDGoogleUser, Swift.Error&gt;) -&gt; () in AuthenticationService2020.LoginViewController.handleSigninWithGoogle() -&gt; ()"
+                  moduleName = "AuthenticationService2020"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zinlinhtetnaing/Documents/My%20Testing%20iOS%20Project/AuthenticationService2020/AuthenticationService2020/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "122">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

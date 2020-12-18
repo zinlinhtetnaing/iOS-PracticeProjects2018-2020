@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+plugin 'cocoapods-keys', {
+  :project => "SecureEncrypt&DecryptJuly509",
+  :keys => [
+  "key",
+  "iv",
+  "CrytoKey",
+  "CryptoIV"
+  ]}
+
+target 'SecureEncrypt&DecryptJuly509' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SecureEncrypt&DecryptJuly509
+  pod 'KeychainSwift', '~> 16.0'
+  pod "TinyConstraints"
+
+  target 'SecureEncrypt&DecryptJuly509Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SecureEncrypt&DecryptJuly509UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

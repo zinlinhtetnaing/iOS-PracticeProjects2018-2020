@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LottieTestingJul1809' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LottieTestingJul1809
+  pod 'lottie-ios'
+
+  target 'LottieTestingJul1809Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LottieTestingJul1809UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

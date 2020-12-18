@@ -1,0 +1,6 @@
+framework module Pods_AnimateCircleProcessUITests {
+  umbrella header "Pods-AnimateCircleProcessUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

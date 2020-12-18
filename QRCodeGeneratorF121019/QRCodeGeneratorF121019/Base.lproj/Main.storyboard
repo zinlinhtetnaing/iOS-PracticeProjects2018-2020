@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QRCodeGeneratorF121019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Utr-3n-4g7">
+                                <rect key="frame" x="16" y="77" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="AlB-dM-cDG"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMQ-cC-OI7">
+                                <rect key="frame" x="16" y="129" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="iIZ-ra-dIJ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qt1-8k-kVE">
+                                <rect key="frame" x="16" y="181" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="9uZ-GW-5LP"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3fg-4l-0FR">
+                                <rect key="frame" x="16" y="30" width="343" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0mC-g5-ebI"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="BarCode"/>
+                                    <segment title="QRCode"/>
+                                </segments>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAb-d3-z68">
+                                <rect key="frame" x="16" y="251" width="343" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="abM-Pn-vu7"/>
+                                </constraints>
+                                <state key="normal" title="Generate">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="generateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJK-eA-rtY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bAp-oj-ea3">
+                                <rect key="frame" x="90" y="341" width="195" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="188" id="LeG-qm-UFw"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95754462480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fAb-d3-z68" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0M3-2L-Aqh"/>
+                            <constraint firstItem="DMQ-cC-OI7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4oP-NU-4Lm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bAp-oj-ea3" secondAttribute="trailing" constant="90" id="5BR-Dd-5hh"/>
+                            <constraint firstItem="DMQ-cC-OI7" firstAttribute="top" secondItem="Utr-3n-4g7" secondAttribute="bottom" constant="17" id="8xX-JB-he5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fAb-d3-z68" secondAttribute="trailing" constant="16" id="GAI-5v-ReB"/>
+                            <constraint firstItem="Utr-3n-4g7" firstAttribute="top" secondItem="3fg-4l-0FR" secondAttribute="bottom" constant="17" id="Hm9-MR-feR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Utr-3n-4g7" secondAttribute="trailing" constant="16" id="JPU-oQ-3wY"/>
+                            <constraint firstItem="bAp-oj-ea3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="L7Q-9R-S5K"/>
+                            <constraint firstItem="bAp-oj-ea3" firstAttribute="top" secondItem="fAb-d3-z68" secondAttribute="bottom" constant="50" id="P17-14-Rck"/>
+                            <constraint firstItem="3fg-4l-0FR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="TTk-LF-Ms0"/>
+                            <constraint firstItem="Utr-3n-4g7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WVP-cE-VF1"/>
+                            <constraint firstItem="Qt1-8k-kVE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="a7F-Bt-S8q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qt1-8k-kVE" secondAttribute="trailing" constant="16" id="eAm-1r-RCV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DMQ-cC-OI7" secondAttribute="trailing" constant="16" id="hQ2-9H-9uv"/>
+                            <constraint firstItem="fAb-d3-z68" firstAttribute="top" secondItem="Qt1-8k-kVE" secondAttribute="bottom" constant="35" id="mbg-uq-ScQ"/>
+                            <constraint firstItem="3fg-4l-0FR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qfE-Lh-uMR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3fg-4l-0FR" secondAttribute="trailing" constant="16" id="sp6-ha-Sbi"/>
+                            <constraint firstItem="Qt1-8k-kVE" firstAttribute="top" secondItem="DMQ-cC-OI7" secondAttribute="bottom" constant="17" id="zRp-26-mNN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="codeSelectorSegment" destination="3fg-4l-0FR" id="9Zk-9L-50u"/>
+                        <outlet property="dataTextFieldOne" destination="Utr-3n-4g7" id="pbd-P0-5za"/>
+                        <outlet property="dataTextFieldThree" destination="Qt1-8k-kVE" id="jHi-34-T9Q"/>
+                        <outlet property="dataTextFieldTwo" destination="DMQ-cC-OI7" id="Pti-ox-MTv"/>
+                        <outlet property="displayCodeImageView" destination="bAp-oj-ea3" id="Eqi-W6-bbd"/>
+                        <outlet property="generateButton" destination="fAb-d3-z68" id="rqX-Ia-WiQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

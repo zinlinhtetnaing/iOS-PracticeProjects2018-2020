@@ -1,0 +1,1383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028AAF81161E9CD2056C74D851C17145 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB820180E0D606F0FEC36C50E1F121C /* TinyConstraints-dummy.m */; };
+		084E141C4E2E686CD58FD7B33192A30C /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5788F2FA66529076474DC63A5ADDED /* TinyEdgeInsets.swift */; };
+		0A14ED547D576E95460D05BF075248C1 /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E15E8AF9E9DB080484AE518E76BDD9 /* TinyConstraints+superview.swift */; };
+		1566EBD5B1A4EEF8F2C6E7AF8EF2B749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1C99EBD484BD120A170D19CF250EB99E /* Pods-SecureEncrypt&DecryptJuly509-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C78ECE4DCF00880476E220BAFE673F /* Pods-SecureEncrypt&DecryptJuly509-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7D4BDCDD5848DA018F756C0DAE8FDD /* Pods-SecureEncrypt&DecryptJuly509Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F621A1BC6F8AEB08FF31879CBE68EC /* Pods-SecureEncrypt&DecryptJuly509Tests-dummy.m */; };
+		32FBC04F69F5511F0E62ED3DCCC14C03 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07968529848DF3F3E3E980D4AE6DCAF /* Abstraction.swift */; };
+		3F65920658F39FEF273AE506DB361D94 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 312A29836A659666E3509C7F8CF8B0A5 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4030D4AF896DAE8E5DAE59D088BFDD87 /* Keys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2C0858B1ECB74C641CA0B07AB0DD62 /* Keys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4507C1EC0CB190938F29151650E551B9 /* Pods-SecureEncrypt&DecryptJuly509Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD03F2ADAB289B524EEDBBAAEACE4FE6 /* Pods-SecureEncrypt&DecryptJuly509Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51FBFD98FF267C1C261BD6F43733DA5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		57175BB1442CA332E2CEC64A3A417A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5946120C32E20D452240CBA7501033CE /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A418ED1ECC817C7A741DB497FA33AF /* Constraints.swift */; };
+		609D334441F4F77C9E984E4E6B0832F3 /* Pods-SecureEncrypt&DecryptJuly509UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50020FC5842873B93A75667A3B940A9D /* Pods-SecureEncrypt&DecryptJuly509UITests-dummy.m */; };
+		61F93A3AD585F5410DF10EEBA1F09620 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC69E5D2B0304F995114B02E3CE11CD9 /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72B5AC62E24A8AED8AF73E58D6AB0DAC /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5548B658186FC4542D78479936F3517A /* KeychainSwift-dummy.m */; };
+		836944E66F58858F1E48D9ACC9F9D5BC /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101EBA68C5D2A64243289DA3C90CDEA1 /* KeychainSwift.swift */; };
+		9CBB9D1907DAB3D2F47F25841FA017D8 /* Pods-SecureEncrypt&DecryptJuly509UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 693A8351E59E482531EB852DBAD453E3 /* Pods-SecureEncrypt&DecryptJuly509UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B861C1EA900236F6369981551F2A8379 /* Pods-SecureEncrypt&DecryptJuly509-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9C50F643283814AB17474CB7A48EA /* Pods-SecureEncrypt&DecryptJuly509-dummy.m */; };
+		BA515710BB5A91B0A1D2BFBD13017CCE /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8A330BE411125B195DF948102F7AE /* Constrainable.swift */; };
+		C754FA7040DC58AD8B3EF0D5B98F99A4 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39E987420F9B24FFF1D7CA943D74EB /* TinyConstraints.swift */; };
+		CB72B0BBCBE7A0416CFA51692CC971A6 /* Keys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059BECCE44704DD2B08CA2D87986C549 /* Keys-dummy.m */; };
+		D189935D4C46C613FAC011999593E3B8 /* SecureEncryptDecryptJuly509Keys.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D20B51EC68A7F6EF41607F1FBD2865 /* SecureEncryptDecryptJuly509Keys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D313578071CAADF57DE690C075DE33DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D41E44624FCAB6EDAB619B1658638F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D4E86A4C7FEB9CD818A3FD50B31DE25D /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A85E0C6973138920C3AC3A1075AB1B /* KeychainSwiftAccessOptions.swift */; };
+		E26F8D1286AB729144B7EB2BFF976812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E66A752B4524C13B623E81B3959CE1D2 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296B279D13E6A7B6FD2EFC8E70BAF1FA /* Stack.swift */; };
+		F7A9B145C12913D4A803872BD747A262 /* SecureEncryptDecryptJuly509Keys.m in Sources */ = {isa = PBXBuildFile; fileRef = DED141368AE81A62DD7916ADCE2CA4D4 /* SecureEncryptDecryptJuly509Keys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FA9730EBAC08AE7A0A399E052DBA03F4 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260A6D2E8C92C1E6BB5DB937BCA04773 /* TegKeychainConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169B3D9A13ED2C3267FEAC2FA74E2DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+		2087841AE6C763335477EEDFDE10C215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		338E9124A258443518C5C8B7E257FA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5650F9EA3998AB31229440CDF0D1E4;
+			remoteInfo = "Pods-SecureEncrypt&DecryptJuly509";
+		};
+		6FDA7C2360AAD6D709B8B07563089090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CE75F0DCD94A1A113665B974F74795F;
+			remoteInfo = Keys;
+		};
+		84EBFF0859772B6C5F020D2134BE86AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5650F9EA3998AB31229440CDF0D1E4;
+			remoteInfo = "Pods-SecureEncrypt&DecryptJuly509";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D95E982F067D6CC427D099E84B5E11 /* Pods_SecureEncrypt_DecryptJuly509Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SecureEncrypt_DecryptJuly509Tests.framework; path = "Pods-SecureEncrypt&DecryptJuly509Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059BECCE44704DD2B08CA2D87986C549 /* Keys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Keys-dummy.m"; sourceTree = "<group>"; };
+		0DA38BB8D0DD859E82F4A25627F922BE /* Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig"; sourceTree = "<group>"; };
+		101EBA68C5D2A64243289DA3C90CDEA1 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+		107B5EF5374B50C90FF0D54FBCF37FF3 /* Pods-SecureEncrypt&DecryptJuly509UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecureEncrypt&DecryptJuly509UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12031D23F6F2FB3A4E71B1BD49E3D05B /* Pods-SecureEncrypt&DecryptJuly509-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecureEncrypt&DecryptJuly509-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B2C0858B1ECB74C641CA0B07AB0DD62 /* Keys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-umbrella.h"; sourceTree = "<group>"; };
+		1B58D797F75FF004730A3EA0F6D500E7 /* Pods-SecureEncrypt&DecryptJuly509Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecureEncrypt&DecryptJuly509Tests-Info.plist"; sourceTree = "<group>"; };
+		1D078E21C963CE082C228B5B72F9F2A9 /* Pods-SecureEncrypt&DecryptJuly509Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecureEncrypt&DecryptJuly509Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		244AD9CDA3D8F25A07BDD96CC20D18CB /* Pods-SecureEncrypt&DecryptJuly509UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecureEncrypt&DecryptJuly509UITests-Info.plist"; sourceTree = "<group>"; };
+		248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251862BEB89F6A4956920C7D7C62F253 /* Keys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
+		260A6D2E8C92C1E6BB5DB937BCA04773 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		27A85E0C6973138920C3AC3A1075AB1B /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		296B279D13E6A7B6FD2EFC8E70BAF1FA /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
+		29ECA0072CEABC6F562E5B0837A58FCE /* Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E7998881D07B026FEAE51D27CE30EBF /* Pods-SecureEncrypt&DecryptJuly509Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecureEncrypt&DecryptJuly509Tests.modulemap"; sourceTree = "<group>"; };
+		312A29836A659666E3509C7F8CF8B0A5 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37A418ED1ECC817C7A741DB497FA33AF /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		3F7DA92B1BD273E3774ED1ED8CA0ABC3 /* Keys-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Keys-Info.plist"; sourceTree = "<group>"; };
+		4EBAB0A35CFCB53194D2F1027F4FCFC0 /* Pods-SecureEncrypt&DecryptJuly509.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecureEncrypt&DecryptJuly509.modulemap"; sourceTree = "<group>"; };
+		50020FC5842873B93A75667A3B940A9D /* Pods-SecureEncrypt&DecryptJuly509UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecureEncrypt&DecryptJuly509UITests-dummy.m"; sourceTree = "<group>"; };
+		5142A61A0D0C8E73F50D24D1686F0B94 /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
+		5548B658186FC4542D78479936F3517A /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		599467A3B7D701AFE69F205C341BF929 /* Pods-SecureEncrypt&DecryptJuly509UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecureEncrypt&DecryptJuly509UITests.modulemap"; sourceTree = "<group>"; };
+		59E15E8AF9E9DB080484AE518E76BDD9 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
+		5A5788F2FA66529076474DC63A5ADDED /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
+		605A94C716D8B68CA2C14CF8EDEADFCA /* Pods-SecureEncrypt&DecryptJuly509Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecureEncrypt&DecryptJuly509Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66F525609F81E34593711FF4F9ED776A /* Pods-SecureEncrypt&DecryptJuly509.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecureEncrypt&DecryptJuly509.release.xcconfig"; sourceTree = "<group>"; };
+		693A8351E59E482531EB852DBAD453E3 /* Pods-SecureEncrypt&DecryptJuly509UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecureEncrypt&DecryptJuly509UITests-umbrella.h"; sourceTree = "<group>"; };
+		70D20B51EC68A7F6EF41607F1FBD2865 /* SecureEncryptDecryptJuly509Keys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SecureEncryptDecryptJuly509Keys.h; sourceTree = "<group>"; };
+		81A8366C8644C27C3B4C5D33414CAD69 /* Keys.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Keys.podspec.json; sourceTree = "<group>"; };
+		845A6209AAED3EC654BF9EE0682BDF7D /* Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84FAF31E3E708A80288E9B7725429EBF /* Pods-SecureEncrypt&DecryptJuly509-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecureEncrypt&DecryptJuly509-Info.plist"; sourceTree = "<group>"; };
+		8BB057F1FA45518A6D4EA87A81F60243 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
+		8BB820180E0D606F0FEC36C50E1F121C /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
+		8BC31F4532201B3CCF01D48F6F839E41 /* Pods_SecureEncrypt_DecryptJuly509UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SecureEncrypt_DecryptJuly509UITests.framework; path = "Pods-SecureEncrypt&DecryptJuly509UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC8A330BE411125B195DF948102F7AE /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
+		90C78ECE4DCF00880476E220BAFE673F /* Pods-SecureEncrypt&DecryptJuly509-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecureEncrypt&DecryptJuly509-umbrella.h"; sourceTree = "<group>"; };
+		98F621A1BC6F8AEB08FF31879CBE68EC /* Pods-SecureEncrypt&DecryptJuly509Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecureEncrypt&DecryptJuly509Tests-dummy.m"; sourceTree = "<group>"; };
+		9AC9C50F643283814AB17474CB7A48EA /* Pods-SecureEncrypt&DecryptJuly509-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecureEncrypt&DecryptJuly509-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F97AD1C8ACC99A656CEF1248409A0A /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		AB39E987420F9B24FFF1D7CA943D74EB /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
+		AD03F2ADAB289B524EEDBBAAEACE4FE6 /* Pods-SecureEncrypt&DecryptJuly509Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecureEncrypt&DecryptJuly509Tests-umbrella.h"; sourceTree = "<group>"; };
+		AEFFD9702C8C22969FC3B9D397A97686 /* Keys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Keys.modulemap; sourceTree = "<group>"; };
+		B3DC6AFB0C65433BB2FF49726F8E1C6C /* Pods-SecureEncrypt&DecryptJuly509-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecureEncrypt&DecryptJuly509-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B897A688403B7E3852E09F2A1BF561A5 /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
+		BB01D4E96C2BCC2C970BB4ED535A7770 /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
+		C6822EBCAADB03DA601BFD5F0BDC3878 /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
+		C7F05E7F5AF51271A6BC5CEDCCDD7A3E /* Pods-SecureEncrypt&DecryptJuly509UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecureEncrypt&DecryptJuly509UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB48134DA04A4BBDC913AF98CF1E3CE0 /* Keys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-prefix.pch"; sourceTree = "<group>"; };
+		CD0A01DFB661DEF6DDC3E0147FA1F84E /* Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig"; sourceTree = "<group>"; };
+		D2850B8DEE76ABF4D4AFF22F8C90E7E2 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		DC69E5D2B0304F995114B02E3CE11CD9 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
+		DED141368AE81A62DD7916ADCE2CA4D4 /* SecureEncryptDecryptJuly509Keys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SecureEncryptDecryptJuly509Keys.m; sourceTree = "<group>"; };
+		DF1B6FEE6BE5531F5BC85E4A5D991AF8 /* Pods-SecureEncrypt&DecryptJuly509-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecureEncrypt&DecryptJuly509-frameworks.sh"; sourceTree = "<group>"; };
+		E07968529848DF3F3E3E980D4AE6DCAF /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
+		E8CACB8744373C1818777FFB8F84C67E /* Keys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Keys.framework; path = Keys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC10E5DA9E98111923DA1383D6918FB9 /* Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F74BF0FF364C3866124D495980C62EF2 /* TinyConstraints.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.xcconfig; sourceTree = "<group>"; };
+		FC1B57AAA800E70CC8AC580E10B91E88 /* Pods_SecureEncrypt_DecryptJuly509.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SecureEncrypt_DecryptJuly509.framework; path = "Pods-SecureEncrypt&DecryptJuly509.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A59A95E16284C5319EC4D6106A39CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566EBD5B1A4EEF8F2C6E7AF8EF2B749 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD8B2DBF475E8DD3DCC0FAE419EBCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57175BB1442CA332E2CEC64A3A417A38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB01EAE7C869473814365E9A95B1094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41E44624FCAB6EDAB619B1658638F2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B030926A98DD302A670967F7CC5A13BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FBFD98FF267C1C261BD6F43733DA5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC03E8A061BB6A0212CFFA8C2B72AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26F8D1286AB729144B7EB2BFF976812 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC654B88E3DF2F0367E95CAB1BB87351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D313578071CAADF57DE690C075DE33DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16180DB04007664EC80A30FBDE076172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */,
+				E8CACB8744373C1818777FFB8F84C67E /* Keys.framework */,
+				FC1B57AAA800E70CC8AC580E10B91E88 /* Pods_SecureEncrypt_DecryptJuly509.framework */,
+				04D95E982F067D6CC427D099E84B5E11 /* Pods_SecureEncrypt_DecryptJuly509Tests.framework */,
+				8BC31F4532201B3CCF01D48F6F839E41 /* Pods_SecureEncrypt_DecryptJuly509UITests.framework */,
+				248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17FD4350EF24127E525F54488088FE80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB01D4E96C2BCC2C970BB4ED535A7770 /* TinyConstraints.modulemap */,
+				F74BF0FF364C3866124D495980C62EF2 /* TinyConstraints.xcconfig */,
+				8BB820180E0D606F0FEC36C50E1F121C /* TinyConstraints-dummy.m */,
+				B897A688403B7E3852E09F2A1BF561A5 /* TinyConstraints-Info.plist */,
+				C6822EBCAADB03DA601BFD5F0BDC3878 /* TinyConstraints-prefix.pch */,
+				DC69E5D2B0304F995114B02E3CE11CD9 /* TinyConstraints-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinyConstraints";
+			sourceTree = "<group>";
+		};
+		2DEE50A49654902DB983C218B6F90E05 /* Pods-SecureEncrypt&DecryptJuly509Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E7998881D07B026FEAE51D27CE30EBF /* Pods-SecureEncrypt&DecryptJuly509Tests.modulemap */,
+				1D078E21C963CE082C228B5B72F9F2A9 /* Pods-SecureEncrypt&DecryptJuly509Tests-acknowledgements.markdown */,
+				605A94C716D8B68CA2C14CF8EDEADFCA /* Pods-SecureEncrypt&DecryptJuly509Tests-acknowledgements.plist */,
+				98F621A1BC6F8AEB08FF31879CBE68EC /* Pods-SecureEncrypt&DecryptJuly509Tests-dummy.m */,
+				1B58D797F75FF004730A3EA0F6D500E7 /* Pods-SecureEncrypt&DecryptJuly509Tests-Info.plist */,
+				AD03F2ADAB289B524EEDBBAAEACE4FE6 /* Pods-SecureEncrypt&DecryptJuly509Tests-umbrella.h */,
+				29ECA0072CEABC6F562E5B0837A58FCE /* Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig */,
+				0DA38BB8D0DD859E82F4A25627F922BE /* Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig */,
+			);
+			name = "Pods-SecureEncrypt&DecryptJuly509Tests";
+			path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509Tests";
+			sourceTree = "<group>";
+		};
+		4C2574E29B01130BB4DD3BEAB7734A45 /* Pods-SecureEncrypt&DecryptJuly509 */ = {
+			isa = PBXGroup;
+			children = (
+				4EBAB0A35CFCB53194D2F1027F4FCFC0 /* Pods-SecureEncrypt&DecryptJuly509.modulemap */,
+				B3DC6AFB0C65433BB2FF49726F8E1C6C /* Pods-SecureEncrypt&DecryptJuly509-acknowledgements.markdown */,
+				12031D23F6F2FB3A4E71B1BD49E3D05B /* Pods-SecureEncrypt&DecryptJuly509-acknowledgements.plist */,
+				9AC9C50F643283814AB17474CB7A48EA /* Pods-SecureEncrypt&DecryptJuly509-dummy.m */,
+				DF1B6FEE6BE5531F5BC85E4A5D991AF8 /* Pods-SecureEncrypt&DecryptJuly509-frameworks.sh */,
+				84FAF31E3E708A80288E9B7725429EBF /* Pods-SecureEncrypt&DecryptJuly509-Info.plist */,
+				90C78ECE4DCF00880476E220BAFE673F /* Pods-SecureEncrypt&DecryptJuly509-umbrella.h */,
+				CD0A01DFB661DEF6DDC3E0147FA1F84E /* Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig */,
+				66F525609F81E34593711FF4F9ED776A /* Pods-SecureEncrypt&DecryptJuly509.release.xcconfig */,
+			);
+			name = "Pods-SecureEncrypt&DecryptJuly509";
+			path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509";
+			sourceTree = "<group>";
+		};
+		72C549090978DE4FD9DE0B7D50827300 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				70D20B51EC68A7F6EF41607F1FBD2865 /* SecureEncryptDecryptJuly509Keys.h */,
+				DED141368AE81A62DD7916ADCE2CA4D4 /* SecureEncryptDecryptJuly509Keys.m */,
+				C62273B3FB4501CE7F548C4AAD395C6D /* Pod */,
+				D5FBFA0271DA1FDE973E341F265206C4 /* Support Files */,
+			);
+			name = Keys;
+			path = CocoaPodsKeys;
+			sourceTree = "<group>";
+		};
+		7EA057429ED9434FB662F6A9423A0989 /* Pods-SecureEncrypt&DecryptJuly509UITests */ = {
+			isa = PBXGroup;
+			children = (
+				599467A3B7D701AFE69F205C341BF929 /* Pods-SecureEncrypt&DecryptJuly509UITests.modulemap */,
+				C7F05E7F5AF51271A6BC5CEDCCDD7A3E /* Pods-SecureEncrypt&DecryptJuly509UITests-acknowledgements.markdown */,
+				107B5EF5374B50C90FF0D54FBCF37FF3 /* Pods-SecureEncrypt&DecryptJuly509UITests-acknowledgements.plist */,
+				50020FC5842873B93A75667A3B940A9D /* Pods-SecureEncrypt&DecryptJuly509UITests-dummy.m */,
+				244AD9CDA3D8F25A07BDD96CC20D18CB /* Pods-SecureEncrypt&DecryptJuly509UITests-Info.plist */,
+				693A8351E59E482531EB852DBAD453E3 /* Pods-SecureEncrypt&DecryptJuly509UITests-umbrella.h */,
+				845A6209AAED3EC654BF9EE0682BDF7D /* Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig */,
+				EC10E5DA9E98111923DA1383D6918FB9 /* Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig */,
+			);
+			name = "Pods-SecureEncrypt&DecryptJuly509UITests";
+			path = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509UITests";
+			sourceTree = "<group>";
+		};
+		918C67CEDF38AB6FC9603B3803A92E0F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C549090978DE4FD9DE0B7D50827300 /* Keys */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9513F039726618E157C5BDD2B5AB6C26 /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				E07968529848DF3F3E3E980D4AE6DCAF /* Abstraction.swift */,
+				8CC8A330BE411125B195DF948102F7AE /* Constrainable.swift */,
+				37A418ED1ECC817C7A741DB497FA33AF /* Constraints.swift */,
+				296B279D13E6A7B6FD2EFC8E70BAF1FA /* Stack.swift */,
+				AB39E987420F9B24FFF1D7CA943D74EB /* TinyConstraints.swift */,
+				59E15E8AF9E9DB080484AE518E76BDD9 /* TinyConstraints+superview.swift */,
+				5A5788F2FA66529076474DC63A5ADDED /* TinyEdgeInsets.swift */,
+				17FD4350EF24127E525F54488088FE80 /* Support Files */,
+			);
+			name = TinyConstraints;
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
+		A196E1C483414EC4079B0A4E0FF35B9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2850B8DEE76ABF4D4AFF22F8C90E7E2 /* KeychainSwift.modulemap */,
+				5142A61A0D0C8E73F50D24D1686F0B94 /* KeychainSwift.xcconfig */,
+				5548B658186FC4542D78479936F3517A /* KeychainSwift-dummy.m */,
+				8BB057F1FA45518A6D4EA87A81F60243 /* KeychainSwift-Info.plist */,
+				A9F97AD1C8ACC99A656CEF1248409A0A /* KeychainSwift-prefix.pch */,
+				312A29836A659666E3509C7F8CF8B0A5 /* KeychainSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		BC4B84AD1A0C20EADB827E9310A791BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8015C1ED96851D6DBE441C753F25D6B /* KeychainSwift */,
+				9513F039726618E157C5BDD2B5AB6C26 /* TinyConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C62273B3FB4501CE7F548C4AAD395C6D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				81A8366C8644C27C3B4C5D33414CAD69 /* Keys.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C8015C1ED96851D6DBE441C753F25D6B /* KeychainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				101EBA68C5D2A64243289DA3C90CDEA1 /* KeychainSwift.swift */,
+				27A85E0C6973138920C3AC3A1075AB1B /* KeychainSwiftAccessOptions.swift */,
+				260A6D2E8C92C1E6BB5DB937BCA04773 /* TegKeychainConstants.swift */,
+				A196E1C483414EC4079B0A4E0FF35B9B /* Support Files */,
+			);
+			name = KeychainSwift;
+			path = KeychainSwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				918C67CEDF38AB6FC9603B3803A92E0F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BC4B84AD1A0C20EADB827E9310A791BB /* Pods */,
+				16180DB04007664EC80A30FBDE076172 /* Products */,
+				E3C32CFB59E8A6DF9D28D19A6CAD20AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5FBFA0271DA1FDE973E341F265206C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFD9702C8C22969FC3B9D397A97686 /* Keys.modulemap */,
+				251862BEB89F6A4956920C7D7C62F253 /* Keys.xcconfig */,
+				059BECCE44704DD2B08CA2D87986C549 /* Keys-dummy.m */,
+				3F7DA92B1BD273E3774ED1ED8CA0ABC3 /* Keys-Info.plist */,
+				CB48134DA04A4BBDC913AF98CF1E3CE0 /* Keys-prefix.pch */,
+				1B2C0858B1ECB74C641CA0B07AB0DD62 /* Keys-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Keys";
+			sourceTree = "<group>";
+		};
+		E3C32CFB59E8A6DF9D28D19A6CAD20AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2574E29B01130BB4DD3BEAB7734A45 /* Pods-SecureEncrypt&DecryptJuly509 */,
+				2DEE50A49654902DB983C218B6F90E05 /* Pods-SecureEncrypt&DecryptJuly509Tests */,
+				7EA057429ED9434FB662F6A9423A0989 /* Pods-SecureEncrypt&DecryptJuly509UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1855EA8D103B07F847882D7F61152DC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C99EBD484BD120A170D19CF250EB99E /* Pods-SecureEncrypt&DecryptJuly509-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271EA5A13433DCDE5AA1C9AB0D0DEC86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBB9D1907DAB3D2F47F25841FA017D8 /* Pods-SecureEncrypt&DecryptJuly509UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51CA7FEC64E4258F3AC8C3CE43C0A2CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F93A3AD585F5410DF10EEBA1F09620 /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E049FC9766E3F82A53CD4F05C36D6E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F65920658F39FEF273AE506DB361D94 /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CF218750B1819F3B13AD728FB47197 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4030D4AF896DAE8E5DAE59D088BFDD87 /* Keys-umbrella.h in Headers */,
+				D189935D4C46C613FAC011999593E3B8 /* SecureEncryptDecryptJuly509Keys.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F9E7D8C678DD2DE0A628BC144E8609 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4507C1EC0CB190938F29151650E551B9 /* Pods-SecureEncrypt&DecryptJuly509Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E123193BCFD9FB5C09D6DCC5DAEF50A4 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
+			buildPhases = (
+				5E049FC9766E3F82A53CD4F05C36D6E7 /* Headers */,
+				8403F10B9EAAEB694D515B91F388F19F /* Sources */,
+				FC654B88E3DF2F0367E95CAB1BB87351 /* Frameworks */,
+				7E99A5D1D3AD733EE9662694B6E392F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSwift;
+			productName = KeychainSwift;
+			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C641E818D621FDFB23FA1BDBF9B14C /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildPhases = (
+				51CA7FEC64E4258F3AC8C3CE43C0A2CF /* Headers */,
+				0E7030F051E6FD2CD9A03CB22601D612 /* Sources */,
+				CEC03E8A061BB6A0212CFFA8C2B72AD6 /* Frameworks */,
+				0570FF31C1BDB24D06B82FBA2B367D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConstraints;
+			productName = TinyConstraints;
+			productReference = 248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5542D09FEA2142A9221F50474DA27C8C /* Pods-SecureEncrypt&DecryptJuly509Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084595A41BCDF8F3F240514945EFCFBF /* Build configuration list for PBXNativeTarget "Pods-SecureEncrypt&DecryptJuly509Tests" */;
+			buildPhases = (
+				C1F9E7D8C678DD2DE0A628BC144E8609 /* Headers */,
+				9BD86BA74F818F94FE63CDDA9A219B43 /* Sources */,
+				6FB01EAE7C869473814365E9A95B1094 /* Frameworks */,
+				4DF999790F0282EB198CC24BF92E0DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24D70F65EBF1BA2DAF69BEC9D7312A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-SecureEncrypt&DecryptJuly509Tests";
+			productName = "Pods-SecureEncrypt&DecryptJuly509Tests";
+			productReference = 04D95E982F067D6CC427D099E84B5E11 /* Pods_SecureEncrypt_DecryptJuly509Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CE75F0DCD94A1A113665B974F74795F /* Keys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE73D351F1598E23681B11613CA30FA7 /* Build configuration list for PBXNativeTarget "Keys" */;
+			buildPhases = (
+				81CF218750B1819F3B13AD728FB47197 /* Headers */,
+				DCBEBFC675FAC1D6EA2BC7FB5E5A5A15 /* Sources */,
+				3AD8B2DBF475E8DD3DCC0FAE419EBCE5 /* Frameworks */,
+				69945309977F7B9D92993782991DD36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keys;
+			productName = Keys;
+			productReference = E8CACB8744373C1818777FFB8F84C67E /* Keys.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B5650F9EA3998AB31229440CDF0D1E4 /* Pods-SecureEncrypt&DecryptJuly509 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10183F90FF945C8129A198375B6CFF48 /* Build configuration list for PBXNativeTarget "Pods-SecureEncrypt&DecryptJuly509" */;
+			buildPhases = (
+				1855EA8D103B07F847882D7F61152DC0 /* Headers */,
+				04D2CFBD685AF5AE214B1ECD9B8CD711 /* Sources */,
+				B030926A98DD302A670967F7CC5A13BE /* Frameworks */,
+				9159D3F11743785E4E00AB9801160CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B486DEF3F5779C15E3C56260156C39A5 /* PBXTargetDependency */,
+				99F4CDD1A248B6FCB9D7FF917CF7D894 /* PBXTargetDependency */,
+				E238745C5EE8F7FD13D66494327F3F2D /* PBXTargetDependency */,
+			);
+			name = "Pods-SecureEncrypt&DecryptJuly509";
+			productName = "Pods-SecureEncrypt&DecryptJuly509";
+			productReference = FC1B57AAA800E70CC8AC580E10B91E88 /* Pods_SecureEncrypt_DecryptJuly509.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C29D320C3348D648C3E9CFFDB4E17A85 /* Pods-SecureEncrypt&DecryptJuly509UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF33E476DAD683B4FDAEA71111DAF84A /* Build configuration list for PBXNativeTarget "Pods-SecureEncrypt&DecryptJuly509UITests" */;
+			buildPhases = (
+				271EA5A13433DCDE5AA1C9AB0D0DEC86 /* Headers */,
+				9FF6F2F17A344A56A7D871E136DD2A1D /* Sources */,
+				2A59A95E16284C5319EC4D6106A39CCF /* Frameworks */,
+				CABCB093EB93569D3F3B752B045BFAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A353FBA099EEDD6C4AFBF95E3A14DCDF /* PBXTargetDependency */,
+			);
+			name = "Pods-SecureEncrypt&DecryptJuly509UITests";
+			productName = "Pods-SecureEncrypt&DecryptJuly509UITests";
+			productReference = 8BC31F4532201B3CCF01D48F6F839E41 /* Pods_SecureEncrypt_DecryptJuly509UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 16180DB04007664EC80A30FBDE076172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
+				5CE75F0DCD94A1A113665B974F74795F /* Keys */,
+				8B5650F9EA3998AB31229440CDF0D1E4 /* Pods-SecureEncrypt&DecryptJuly509 */,
+				5542D09FEA2142A9221F50474DA27C8C /* Pods-SecureEncrypt&DecryptJuly509Tests */,
+				C29D320C3348D648C3E9CFFDB4E17A85 /* Pods-SecureEncrypt&DecryptJuly509UITests */,
+				45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0570FF31C1BDB24D06B82FBA2B367D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF999790F0282EB198CC24BF92E0DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69945309977F7B9D92993782991DD36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E99A5D1D3AD733EE9662694B6E392F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9159D3F11743785E4E00AB9801160CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABCB093EB93569D3F3B752B045BFAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D2CFBD685AF5AE214B1ECD9B8CD711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861C1EA900236F6369981551F2A8379 /* Pods-SecureEncrypt&DecryptJuly509-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7030F051E6FD2CD9A03CB22601D612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBC04F69F5511F0E62ED3DCCC14C03 /* Abstraction.swift in Sources */,
+				BA515710BB5A91B0A1D2BFBD13017CCE /* Constrainable.swift in Sources */,
+				5946120C32E20D452240CBA7501033CE /* Constraints.swift in Sources */,
+				E66A752B4524C13B623E81B3959CE1D2 /* Stack.swift in Sources */,
+				0A14ED547D576E95460D05BF075248C1 /* TinyConstraints+superview.swift in Sources */,
+				028AAF81161E9CD2056C74D851C17145 /* TinyConstraints-dummy.m in Sources */,
+				C754FA7040DC58AD8B3EF0D5B98F99A4 /* TinyConstraints.swift in Sources */,
+				084E141C4E2E686CD58FD7B33192A30C /* TinyEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403F10B9EAAEB694D515B91F388F19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B5AC62E24A8AED8AF73E58D6AB0DAC /* KeychainSwift-dummy.m in Sources */,
+				836944E66F58858F1E48D9ACC9F9D5BC /* KeychainSwift.swift in Sources */,
+				D4E86A4C7FEB9CD818A3FD50B31DE25D /* KeychainSwiftAccessOptions.swift in Sources */,
+				FA9730EBAC08AE7A0A399E052DBA03F4 /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD86BA74F818F94FE63CDDA9A219B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7D4BDCDD5848DA018F756C0DAE8FDD /* Pods-SecureEncrypt&DecryptJuly509Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF6F2F17A344A56A7D871E136DD2A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609D334441F4F77C9E984E4E6B0832F3 /* Pods-SecureEncrypt&DecryptJuly509UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBEBFC675FAC1D6EA2BC7FB5E5A5A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72B0BBCBE7A0416CFA51692CC971A6 /* Keys-dummy.m in Sources */,
+				F7A9B145C12913D4A803872BD747A262 /* SecureEncryptDecryptJuly509Keys.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F4CDD1A248B6FCB9D7FF917CF7D894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keys;
+			target = 5CE75F0DCD94A1A113665B974F74795F /* Keys */;
+			targetProxy = 6FDA7C2360AAD6D709B8B07563089090 /* PBXContainerItemProxy */;
+		};
+		A24D70F65EBF1BA2DAF69BEC9D7312A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SecureEncrypt&DecryptJuly509";
+			target = 8B5650F9EA3998AB31229440CDF0D1E4 /* Pods-SecureEncrypt&DecryptJuly509 */;
+			targetProxy = 338E9124A258443518C5C8B7E257FA21 /* PBXContainerItemProxy */;
+		};
+		A353FBA099EEDD6C4AFBF95E3A14DCDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SecureEncrypt&DecryptJuly509";
+			target = 8B5650F9EA3998AB31229440CDF0D1E4 /* Pods-SecureEncrypt&DecryptJuly509 */;
+			targetProxy = 84EBFF0859772B6C5F020D2134BE86AE /* PBXContainerItemProxy */;
+		};
+		B486DEF3F5779C15E3C56260156C39A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = 2087841AE6C763335477EEDFDE10C215 /* PBXContainerItemProxy */;
+		};
+		E238745C5EE8F7FD13D66494327F3F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = 169B3D9A13ED2C3267FEAC2FA74E2DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		094BDD8310CC8C5B34EEB1CE50B04718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5142A61A0D0C8E73F50D24D1686F0B94 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B19BDEC7F29B284E65C9B7634B3CBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F525609F81E34593711FF4F9ED776A /* Pods-SecureEncrypt&DecryptJuly509.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		306ACE3DEF8798A9661E5C5F058D65B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC10E5DA9E98111923DA1383D6918FB9 /* Pods-SecureEncrypt&DecryptJuly509UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509UITests/Pods-SecureEncrypt&DecryptJuly509UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509UITests/Pods-SecureEncrypt&DecryptJuly509UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		472B6EB7B4647ACFA9B281DEDE787F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0A01DFB661DEF6DDC3E0147FA1F84E /* Pods-SecureEncrypt&DecryptJuly509.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509/Pods-SecureEncrypt&DecryptJuly509.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BC8514819011E80047B99B199BDBBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA38BB8D0DD859E82F4A25627F922BE /* Pods-SecureEncrypt&DecryptJuly509Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509Tests/Pods-SecureEncrypt&DecryptJuly509Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509Tests/Pods-SecureEncrypt&DecryptJuly509Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8774A54E1AA2BD66E8CD54F2757676BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5142A61A0D0C8E73F50D24D1686F0B94 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A9477582F58BB35AA87717C43F53C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251862BEB89F6A4956920C7D7C62F253 /* Keys.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Keys/Keys-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keys/Keys-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Keys/Keys.modulemap";
+				PRODUCT_MODULE_NAME = Keys;
+				PRODUCT_NAME = Keys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A096FB8730EA52BC8F8D7A539A1A5193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74BF0FF364C3866124D495980C62EF2 /* TinyConstraints.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A719F4E4808B5E29A2AEB699A09A6B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845A6209AAED3EC654BF9EE0682BDF7D /* Pods-SecureEncrypt&DecryptJuly509UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509UITests/Pods-SecureEncrypt&DecryptJuly509UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509UITests/Pods-SecureEncrypt&DecryptJuly509UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7CA7F59111F12F8C597569FAF5CC12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74BF0FF364C3866124D495980C62EF2 /* TinyConstraints.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF64B4BAD94C0A9CC555433E9DAA0915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ECA0072CEABC6F562E5B0837A58FCE /* Pods-SecureEncrypt&DecryptJuly509Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509Tests/Pods-SecureEncrypt&DecryptJuly509Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecureEncrypt&DecryptJuly509Tests/Pods-SecureEncrypt&DecryptJuly509Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0BA30A98A48285560A8066AE2F0022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251862BEB89F6A4956920C7D7C62F253 /* Keys.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Keys/Keys-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keys/Keys-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Keys/Keys.modulemap";
+				PRODUCT_MODULE_NAME = Keys;
+				PRODUCT_NAME = Keys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		084595A41BCDF8F3F240514945EFCFBF /* Build configuration list for PBXNativeTarget "Pods-SecureEncrypt&DecryptJuly509Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF64B4BAD94C0A9CC555433E9DAA0915 /* Debug */,
+				7BC8514819011E80047B99B199BDBBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10183F90FF945C8129A198375B6CFF48 /* Build configuration list for PBXNativeTarget "Pods-SecureEncrypt&DecryptJuly509" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472B6EB7B4647ACFA9B281DEDE787F8D /* Debug */,
+				1B19BDEC7F29B284E65C9B7634B3CBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF33E476DAD683B4FDAEA71111DAF84A /* Build configuration list for PBXNativeTarget "Pods-SecureEncrypt&DecryptJuly509UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A719F4E4808B5E29A2AEB699A09A6B87 /* Debug */,
+				306ACE3DEF8798A9661E5C5F058D65B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE73D351F1598E23681B11613CA30FA7 /* Build configuration list for PBXNativeTarget "Keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BA30A98A48285560A8066AE2F0022C /* Debug */,
+				9A9477582F58BB35AA87717C43F53C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E123193BCFD9FB5C09D6DCC5DAEF50A4 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8774A54E1AA2BD66E8CD54F2757676BD /* Debug */,
+				094BDD8310CC8C5B34EEB1CE50B04718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C641E818D621FDFB23FA1BDBF9B14C /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A096FB8730EA52BC8F8D7A539A1A5193 /* Debug */,
+				C7CA7F59111F12F8C597569FAF5CC12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gesture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKb-Pj-2dA">
+                                <rect key="frame" x="175.5" y="310.5" width="25" height="47"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="43"/>
+                                <color key="textColor" red="0.0" green="0.79063585069999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Your Gesture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJs-6Z-ePD">
+                                <rect key="frame" x="127" y="73" width="121.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="g8r-Vm-TED"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.79063585069999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="vKb-Pj-2dA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KIu-CH-yq0"/>
+                            <constraint firstItem="dJs-6Z-ePD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="akW-zC-Wcd"/>
+                            <constraint firstItem="vKb-Pj-2dA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lKO-qQ-wdP"/>
+                            <constraint firstItem="dJs-6Z-ePD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rrK-td-jh1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dJs-6Z-ePD" secondAttribute="trailing" constant="127" id="wlK-Mw-vr6"/>
+                            <constraint firstItem="dJs-6Z-ePD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="x2v-lW-2Do"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="sEs-AS-oPC" appends="YES" id="20j-Ru-62p"/>
+                            <outletCollection property="gestureRecognizers" destination="LTC-FS-9Ed" appends="YES" id="5Xg-T7-6pj"/>
+                            <outletCollection property="gestureRecognizers" destination="w8z-6e-zgj" appends="YES" id="9Bv-ac-9r7"/>
+                            <outletCollection property="gestureRecognizers" destination="Kfu-Bv-jGH" appends="YES" id="YGn-4w-eDk"/>
+                            <outletCollection property="gestureRecognizers" destination="CdG-xM-Ozs" appends="YES" id="892-RN-IIc"/>
+                            <outletCollection property="gestureRecognizers" destination="c5K-LO-KHE" appends="YES" id="mNy-q8-Aqm"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="counterlabel" destination="vKb-Pj-2dA" id="Bww-iE-ueB"/>
+                        <outlet property="infolabel" destination="dJs-6Z-ePD" id="gf9-YT-5hO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="sEs-AS-oPC">
+                    <connections>
+                        <action selector="tapTheView:" destination="BYZ-38-t0r" id="6wo-1a-fw2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="LTC-FS-9Ed">
+                    <connections>
+                        <action selector="increase5:" destination="BYZ-38-t0r" id="ceH-wC-j1o"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="w8z-6e-zgj">
+                    <connections>
+                        <action selector="decrease5:" destination="BYZ-38-t0r" id="NbS-Ap-TbC"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="Kfu-Bv-jGH">
+                    <connections>
+                        <action selector="decrease:" destination="BYZ-38-t0r" id="Qj8-io-pGO"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <rotationGestureRecognizer id="CdG-xM-Ozs">
+                    <connections>
+                        <action selector="rotate:" destination="BYZ-38-t0r" id="UMN-7w-N9u"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="c5K-LO-KHE">
+                    <connections>
+                        <action selector="reset:" destination="BYZ-38-t0r" id="WhD-7V-xHD"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

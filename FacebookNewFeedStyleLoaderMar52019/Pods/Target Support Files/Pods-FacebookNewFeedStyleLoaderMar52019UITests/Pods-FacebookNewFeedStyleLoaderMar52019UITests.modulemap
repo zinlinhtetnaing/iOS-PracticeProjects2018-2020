@@ -1,0 +1,6 @@
+framework module Pods_FacebookNewFeedStyleLoaderMar52019UITests {
+  umbrella header "Pods-FacebookNewFeedStyleLoaderMar52019UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

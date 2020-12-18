@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238A0BD6222E2C4600CF258A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A0BD5222E2C4600CF258A /* AppDelegate.swift */; };
+		238A0BD8222E2C4600CF258A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A0BD7222E2C4600CF258A /* ViewController.swift */; };
+		238A0BDB222E2C4600CF258A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238A0BD9222E2C4600CF258A /* Main.storyboard */; };
+		238A0BDD222E2C4700CF258A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238A0BDC222E2C4700CF258A /* Assets.xcassets */; };
+		238A0BE0222E2C4700CF258A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238A0BDE222E2C4700CF258A /* LaunchScreen.storyboard */; };
+		238A0BEB222E2C4800CF258A /* CheckBoxMar52019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A0BEA222E2C4800CF258A /* CheckBoxMar52019Tests.swift */; };
+		238A0BF6222E2C4800CF258A /* CheckBoxMar52019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A0BF5222E2C4800CF258A /* CheckBoxMar52019UITests.swift */; };
+		238A0C04222E2F5500CF258A /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A0C03222E2F5500CF258A /* CheckBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		238A0BE7222E2C4800CF258A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238A0BCA222E2C4600CF258A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 238A0BD1222E2C4600CF258A;
+			remoteInfo = CheckBoxMar52019;
+		};
+		238A0BF2222E2C4800CF258A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238A0BCA222E2C4600CF258A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 238A0BD1222E2C4600CF258A;
+			remoteInfo = CheckBoxMar52019;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238A0BD2222E2C4600CF258A /* CheckBoxMar52019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBoxMar52019.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		238A0BD5222E2C4600CF258A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		238A0BD7222E2C4600CF258A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		238A0BDA222E2C4600CF258A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		238A0BDC222E2C4700CF258A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238A0BDF222E2C4700CF258A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		238A0BE1222E2C4800CF258A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238A0BE6222E2C4800CF258A /* CheckBoxMar52019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxMar52019Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		238A0BEA222E2C4800CF258A /* CheckBoxMar52019Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxMar52019Tests.swift; sourceTree = "<group>"; };
+		238A0BEC222E2C4800CF258A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238A0BF1222E2C4800CF258A /* CheckBoxMar52019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxMar52019UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		238A0BF5222E2C4800CF258A /* CheckBoxMar52019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxMar52019UITests.swift; sourceTree = "<group>"; };
+		238A0BF7222E2C4800CF258A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238A0C03222E2F5500CF258A /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238A0BCF222E2C4600CF258A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238A0BE3222E2C4800CF258A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238A0BEE222E2C4800CF258A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238A0BC9222E2C4600CF258A = {
+			isa = PBXGroup;
+			children = (
+				238A0BD4222E2C4600CF258A /* CheckBoxMar52019 */,
+				238A0BE9222E2C4800CF258A /* CheckBoxMar52019Tests */,
+				238A0BF4222E2C4800CF258A /* CheckBoxMar52019UITests */,
+				238A0BD3222E2C4600CF258A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		238A0BD3222E2C4600CF258A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238A0BD2222E2C4600CF258A /* CheckBoxMar52019.app */,
+				238A0BE6222E2C4800CF258A /* CheckBoxMar52019Tests.xctest */,
+				238A0BF1222E2C4800CF258A /* CheckBoxMar52019UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238A0BD4222E2C4600CF258A /* CheckBoxMar52019 */ = {
+			isa = PBXGroup;
+			children = (
+				238A0BD5222E2C4600CF258A /* AppDelegate.swift */,
+				238A0BD7222E2C4600CF258A /* ViewController.swift */,
+				238A0C03222E2F5500CF258A /* CheckBox.swift */,
+				238A0BD9222E2C4600CF258A /* Main.storyboard */,
+				238A0BDC222E2C4700CF258A /* Assets.xcassets */,
+				238A0BDE222E2C4700CF258A /* LaunchScreen.storyboard */,
+				238A0BE1222E2C4800CF258A /* Info.plist */,
+			);
+			path = CheckBoxMar52019;
+			sourceTree = "<group>";
+		};
+		238A0BE9222E2C4800CF258A /* CheckBoxMar52019Tests */ = {
+			isa = PBXGroup;
+			children = (
+				238A0BEA222E2C4800CF258A /* CheckBoxMar52019Tests.swift */,
+				238A0BEC222E2C4800CF258A /* Info.plist */,
+			);
+			path = CheckBoxMar52019Tests;
+			sourceTree = "<group>";
+		};
+		238A0BF4222E2C4800CF258A /* CheckBoxMar52019UITests */ = {
+			isa = PBXGroup;
+			children = (
+				238A0BF5222E2C4800CF258A /* CheckBoxMar52019UITests.swift */,
+				238A0BF7222E2C4800CF258A /* Info.plist */,
+			);
+			path = CheckBoxMar52019UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		238A0BD1222E2C4600CF258A /* CheckBoxMar52019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238A0BFA222E2C4800CF258A /* Build configuration list for PBXNativeTarget "CheckBoxMar52019" */;
+			buildPhases = (
+				238A0BCE222E2C4600CF258A /* Sources */,
+				238A0BCF222E2C4600CF258A /* Frameworks */,
+				238A0BD0222E2C4600CF258A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckBoxMar52019;
+			productName = CheckBoxMar52019;
+			productReference = 238A0BD2222E2C4600CF258A /* CheckBoxMar52019.app */;
+			productType = "com.apple.product-type.application";
+		};
+		238A0BE5222E2C4800CF258A /* CheckBoxMar52019Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238A0BFD222E2C4800CF258A /* Build configuration list for PBXNativeTarget "CheckBoxMar52019Tests" */;
+			buildPhases = (
+				238A0BE2222E2C4800CF258A /* Sources */,
+				238A0BE3222E2C4800CF258A /* Frameworks */,
+				238A0BE4222E2C4800CF258A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				238A0BE8222E2C4800CF258A /* PBXTargetDependency */,
+			);
+			name = CheckBoxMar52019Tests;
+			productName = CheckBoxMar52019Tests;
+			productReference = 238A0BE6222E2C4800CF258A /* CheckBoxMar52019Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		238A0BF0222E2C4800CF258A /* CheckBoxMar52019UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238A0C00222E2C4800CF258A /* Build configuration list for PBXNativeTarget "CheckBoxMar52019UITests" */;
+			buildPhases = (
+				238A0BED222E2C4800CF258A /* Sources */,
+				238A0BEE222E2C4800CF258A /* Frameworks */,
+				238A0BEF222E2C4800CF258A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				238A0BF3222E2C4800CF258A /* PBXTargetDependency */,
+			);
+			name = CheckBoxMar52019UITests;
+			productName = CheckBoxMar52019UITests;
+			productReference = 238A0BF1222E2C4800CF258A /* CheckBoxMar52019UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238A0BCA222E2C4600CF258A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Zin Lin Htet Naing";
+				TargetAttributes = {
+					238A0BD1222E2C4600CF258A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					238A0BE5222E2C4800CF258A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 238A0BD1222E2C4600CF258A;
+					};
+					238A0BF0222E2C4800CF258A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 238A0BD1222E2C4600CF258A;
+					};
+				};
+			};
+			buildConfigurationList = 238A0BCD222E2C4600CF258A /* Build configuration list for PBXProject "CheckBoxMar52019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238A0BC9222E2C4600CF258A;
+			productRefGroup = 238A0BD3222E2C4600CF258A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				238A0BD1222E2C4600CF258A /* CheckBoxMar52019 */,
+				238A0BE5222E2C4800CF258A /* CheckBoxMar52019Tests */,
+				238A0BF0222E2C4800CF258A /* CheckBoxMar52019UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238A0BD0222E2C4600CF258A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238A0BE0222E2C4700CF258A /* LaunchScreen.storyboard in Resources */,
+				238A0BDD222E2C4700CF258A /* Assets.xcassets in Resources */,
+				238A0BDB222E2C4600CF258A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238A0BE4222E2C4800CF258A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238A0BEF222E2C4800CF258A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238A0BCE222E2C4600CF258A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238A0BD8222E2C4600CF258A /* ViewController.swift in Sources */,
+				238A0BD6222E2C4600CF258A /* AppDelegate.swift in Sources */,
+				238A0C04222E2F5500CF258A /* CheckBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238A0BE2222E2C4800CF258A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238A0BEB222E2C4800CF258A /* CheckBoxMar52019Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238A0BED222E2C4800CF258A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238A0BF6222E2C4800CF258A /* CheckBoxMar52019UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		238A0BE8222E2C4800CF258A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 238A0BD1222E2C4600CF258A /* CheckBoxMar52019 */;
+			targetProxy = 238A0BE7222E2C4800CF258A /* PBXContainerItemProxy */;
+		};
+		238A0BF3222E2C4800CF258A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 238A0BD1222E2C4600CF258A /* CheckBoxMar52019 */;
+			targetProxy = 238A0BF2222E2C4800CF258A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		238A0BD9222E2C4600CF258A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238A0BDA222E2C4600CF258A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		238A0BDE222E2C4700CF258A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238A0BDF222E2C4700CF258A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		238A0BF8222E2C4800CF258A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		238A0BF9222E2C4800CF258A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		238A0BFB222E2C4800CF258A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = CheckBoxMar52019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.CheckBoxMar52019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		238A0BFC222E2C4800CF258A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = CheckBoxMar52019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.CheckBoxMar52019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		238A0BFE222E2C4800CF258A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = CheckBoxMar52019Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.CheckBoxMar52019Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckBoxMar52019.app/CheckBoxMar52019";
+			};
+			name = Debug;
+		};
+		238A0BFF222E2C4800CF258A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = CheckBoxMar52019Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.CheckBoxMar52019Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckBoxMar52019.app/CheckBoxMar52019";
+			};
+			name = Release;
+		};
+		238A0C01222E2C4800CF258A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = CheckBoxMar52019UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.CheckBoxMar52019UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckBoxMar52019;
+			};
+			name = Debug;
+		};
+		238A0C02222E2C4800CF258A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = CheckBoxMar52019UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.CheckBoxMar52019UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckBoxMar52019;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238A0BCD222E2C4600CF258A /* Build configuration list for PBXProject "CheckBoxMar52019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238A0BF8222E2C4800CF258A /* Debug */,
+				238A0BF9222E2C4800CF258A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238A0BFA222E2C4800CF258A /* Build configuration list for PBXNativeTarget "CheckBoxMar52019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238A0BFB222E2C4800CF258A /* Debug */,
+				238A0BFC222E2C4800CF258A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238A0BFD222E2C4800CF258A /* Build configuration list for PBXNativeTarget "CheckBoxMar52019Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238A0BFE222E2C4800CF258A /* Debug */,
+				238A0BFF222E2C4800CF258A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238A0C00222E2C4800CF258A /* Build configuration list for PBXNativeTarget "CheckBoxMar52019UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238A0C01222E2C4800CF258A /* Debug */,
+				238A0C02222E2C4800CF258A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238A0BCA222E2C4600CF258A /* Project object */;
+}

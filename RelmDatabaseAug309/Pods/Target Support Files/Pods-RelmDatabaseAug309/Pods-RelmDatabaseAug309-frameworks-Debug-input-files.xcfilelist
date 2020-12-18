@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-RelmDatabaseAug309/Pods-RelmDatabaseAug309-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RBSRealmBrowser/RBSRealmBrowser.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework

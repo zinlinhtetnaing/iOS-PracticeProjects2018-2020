@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E7D16722F5E72D001129DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D16622F5E72D001129DD /* AppDelegate.swift */; };
+		23E7D16922F5E72D001129DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D16822F5E72D001129DD /* ViewController.swift */; };
+		23E7D16C22F5E72D001129DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E7D16A22F5E72D001129DD /* Main.storyboard */; };
+		23E7D16E22F5E730001129DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E7D16D22F5E730001129DD /* Assets.xcassets */; };
+		23E7D17122F5E730001129DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E7D16F22F5E730001129DD /* LaunchScreen.storyboard */; };
+		23E7D17C22F5E730001129DD /* RelmDatabaseAug309Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D17B22F5E730001129DD /* RelmDatabaseAug309Tests.swift */; };
+		23E7D18722F5E730001129DD /* RelmDatabaseAug309UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D18622F5E730001129DD /* RelmDatabaseAug309UITests.swift */; };
+		23E7D19622F5F99F001129DD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D19422F5F99F001129DD /* TableViewCell.swift */; };
+		23E7D19722F5F99F001129DD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23E7D19522F5F99F001129DD /* TableViewCell.xib */; };
+		23E7D19922F5FEDE001129DD /* PickUpLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D19822F5FEDE001129DD /* PickUpLine.swift */; };
+		23E7D19B22F601EE001129DD /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D19A22F601EE001129DD /* AlertService.swift */; };
+		23E7D19D22F605AD001129DD /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D19C22F605AD001129DD /* RealmService.swift */; };
+		6E7D515B01DD1A2DAA00829D /* Pods_RelmDatabaseAug309UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F1E1CEDBC49A7BA38A8E0D /* Pods_RelmDatabaseAug309UITests.framework */; };
+		A0065D4D92B9B4060AB741BD /* Pods_RelmDatabaseAug309.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E688FC18439DA2151BFCB23 /* Pods_RelmDatabaseAug309.framework */; };
+		FE6D638CB9E152AB6C79D3CF /* Pods_RelmDatabaseAug309Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C679047C72FA68C3408C33F /* Pods_RelmDatabaseAug309Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23E7D17822F5E730001129DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E7D15B22F5E72D001129DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E7D16222F5E72D001129DD;
+			remoteInfo = RelmDatabaseAug309;
+		};
+		23E7D18322F5E730001129DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E7D15B22F5E72D001129DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E7D16222F5E72D001129DD;
+			remoteInfo = RelmDatabaseAug309;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23E7D16322F5E72D001129DD /* RelmDatabaseAug309.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelmDatabaseAug309.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E7D16622F5E72D001129DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23E7D16822F5E72D001129DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23E7D16B22F5E72D001129DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23E7D16D22F5E730001129DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23E7D17022F5E730001129DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23E7D17222F5E730001129DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E7D17722F5E730001129DD /* RelmDatabaseAug309Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelmDatabaseAug309Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E7D17B22F5E730001129DD /* RelmDatabaseAug309Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelmDatabaseAug309Tests.swift; sourceTree = "<group>"; };
+		23E7D17D22F5E730001129DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E7D18222F5E730001129DD /* RelmDatabaseAug309UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelmDatabaseAug309UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E7D18622F5E730001129DD /* RelmDatabaseAug309UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelmDatabaseAug309UITests.swift; sourceTree = "<group>"; };
+		23E7D18822F5E730001129DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E7D19422F5F99F001129DD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		23E7D19522F5F99F001129DD /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		23E7D19822F5FEDE001129DD /* PickUpLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpLine.swift; sourceTree = "<group>"; };
+		23E7D19A22F601EE001129DD /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		23E7D19C22F605AD001129DD /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		2C679047C72FA68C3408C33F /* Pods_RelmDatabaseAug309Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelmDatabaseAug309Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C2A0C83145FFA69DBDF2BF /* Pods-RelmDatabaseAug309Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelmDatabaseAug309Tests.debug.xcconfig"; path = "Target Support Files/Pods-RelmDatabaseAug309Tests/Pods-RelmDatabaseAug309Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F2BDCB36EEE096824A7096B /* Pods-RelmDatabaseAug309.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelmDatabaseAug309.release.xcconfig"; path = "Target Support Files/Pods-RelmDatabaseAug309/Pods-RelmDatabaseAug309.release.xcconfig"; sourceTree = "<group>"; };
+		77F1E1CEDBC49A7BA38A8E0D /* Pods_RelmDatabaseAug309UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelmDatabaseAug309UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCCEA7D224020EB0B2E862D /* Pods-RelmDatabaseAug309.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelmDatabaseAug309.debug.xcconfig"; path = "Target Support Files/Pods-RelmDatabaseAug309/Pods-RelmDatabaseAug309.debug.xcconfig"; sourceTree = "<group>"; };
+		854B2CF6D5B237EBC10BBA13 /* Pods-RelmDatabaseAug309Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelmDatabaseAug309Tests.release.xcconfig"; path = "Target Support Files/Pods-RelmDatabaseAug309Tests/Pods-RelmDatabaseAug309Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8E688FC18439DA2151BFCB23 /* Pods_RelmDatabaseAug309.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelmDatabaseAug309.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		974418E10B30217082E1980D /* Pods-RelmDatabaseAug309UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelmDatabaseAug309UITests.release.xcconfig"; path = "Target Support Files/Pods-RelmDatabaseAug309UITests/Pods-RelmDatabaseAug309UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E2C05C41B53C88CCFDFB523 /* Pods-RelmDatabaseAug309UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelmDatabaseAug309UITests.debug.xcconfig"; path = "Target Support Files/Pods-RelmDatabaseAug309UITests/Pods-RelmDatabaseAug309UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E7D16022F5E72D001129DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0065D4D92B9B4060AB741BD /* Pods_RelmDatabaseAug309.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E7D17422F5E730001129DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6D638CB9E152AB6C79D3CF /* Pods_RelmDatabaseAug309Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E7D17F22F5E730001129DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7D515B01DD1A2DAA00829D /* Pods_RelmDatabaseAug309UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E7D15A22F5E72D001129DD = {
+			isa = PBXGroup;
+			children = (
+				23E7D16522F5E72D001129DD /* RelmDatabaseAug309 */,
+				23E7D17A22F5E730001129DD /* RelmDatabaseAug309Tests */,
+				23E7D18522F5E730001129DD /* RelmDatabaseAug309UITests */,
+				23E7D16422F5E72D001129DD /* Products */,
+				8257A8E4AC36EFBA78327C58 /* Pods */,
+				6B12B72EFB440D02601B5C26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23E7D16422F5E72D001129DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23E7D16322F5E72D001129DD /* RelmDatabaseAug309.app */,
+				23E7D17722F5E730001129DD /* RelmDatabaseAug309Tests.xctest */,
+				23E7D18222F5E730001129DD /* RelmDatabaseAug309UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23E7D16522F5E72D001129DD /* RelmDatabaseAug309 */ = {
+			isa = PBXGroup;
+			children = (
+				23E7D16622F5E72D001129DD /* AppDelegate.swift */,
+				23E7D16822F5E72D001129DD /* ViewController.swift */,
+				23E7D19822F5FEDE001129DD /* PickUpLine.swift */,
+				23E7D16A22F5E72D001129DD /* Main.storyboard */,
+				23E7D19422F5F99F001129DD /* TableViewCell.swift */,
+				23E7D19A22F601EE001129DD /* AlertService.swift */,
+				23E7D19C22F605AD001129DD /* RealmService.swift */,
+				23E7D19522F5F99F001129DD /* TableViewCell.xib */,
+				23E7D16D22F5E730001129DD /* Assets.xcassets */,
+				23E7D16F22F5E730001129DD /* LaunchScreen.storyboard */,
+				23E7D17222F5E730001129DD /* Info.plist */,
+			);
+			path = RelmDatabaseAug309;
+			sourceTree = "<group>";
+		};
+		23E7D17A22F5E730001129DD /* RelmDatabaseAug309Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23E7D17B22F5E730001129DD /* RelmDatabaseAug309Tests.swift */,
+				23E7D17D22F5E730001129DD /* Info.plist */,
+			);
+			path = RelmDatabaseAug309Tests;
+			sourceTree = "<group>";
+		};
+		23E7D18522F5E730001129DD /* RelmDatabaseAug309UITests */ = {
+			isa = PBXGroup;
+			children = (
+				23E7D18622F5E730001129DD /* RelmDatabaseAug309UITests.swift */,
+				23E7D18822F5E730001129DD /* Info.plist */,
+			);
+			path = RelmDatabaseAug309UITests;
+			sourceTree = "<group>";
+		};
+		6B12B72EFB440D02601B5C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E688FC18439DA2151BFCB23 /* Pods_RelmDatabaseAug309.framework */,
+				2C679047C72FA68C3408C33F /* Pods_RelmDatabaseAug309Tests.framework */,
+				77F1E1CEDBC49A7BA38A8E0D /* Pods_RelmDatabaseAug309UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8257A8E4AC36EFBA78327C58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCEA7D224020EB0B2E862D /* Pods-RelmDatabaseAug309.debug.xcconfig */,
+				6F2BDCB36EEE096824A7096B /* Pods-RelmDatabaseAug309.release.xcconfig */,
+				41C2A0C83145FFA69DBDF2BF /* Pods-RelmDatabaseAug309Tests.debug.xcconfig */,
+				854B2CF6D5B237EBC10BBA13 /* Pods-RelmDatabaseAug309Tests.release.xcconfig */,
+				9E2C05C41B53C88CCFDFB523 /* Pods-RelmDatabaseAug309UITests.debug.xcconfig */,
+				974418E10B30217082E1980D /* Pods-RelmDatabaseAug309UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23E7D16222F5E72D001129DD /* RelmDatabaseAug309 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E7D18B22F5E730001129DD /* Build configuration list for PBXNativeTarget "RelmDatabaseAug309" */;
+			buildPhases = (
+				1EC035AB8C35D4082F23845D /* [CP] Check Pods Manifest.lock */,
+				23E7D15F22F5E72D001129DD /* Sources */,
+				23E7D16022F5E72D001129DD /* Frameworks */,
+				23E7D16122F5E72D001129DD /* Resources */,
+				2A6CF84A178E00E768340AFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelmDatabaseAug309;
+			productName = RelmDatabaseAug309;
+			productReference = 23E7D16322F5E72D001129DD /* RelmDatabaseAug309.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23E7D17622F5E730001129DD /* RelmDatabaseAug309Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E7D18E22F5E730001129DD /* Build configuration list for PBXNativeTarget "RelmDatabaseAug309Tests" */;
+			buildPhases = (
+				CB3E3F6A1288CA711452C8C4 /* [CP] Check Pods Manifest.lock */,
+				23E7D17322F5E730001129DD /* Sources */,
+				23E7D17422F5E730001129DD /* Frameworks */,
+				23E7D17522F5E730001129DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E7D17922F5E730001129DD /* PBXTargetDependency */,
+			);
+			name = RelmDatabaseAug309Tests;
+			productName = RelmDatabaseAug309Tests;
+			productReference = 23E7D17722F5E730001129DD /* RelmDatabaseAug309Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23E7D18122F5E730001129DD /* RelmDatabaseAug309UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E7D19122F5E730001129DD /* Build configuration list for PBXNativeTarget "RelmDatabaseAug309UITests" */;
+			buildPhases = (
+				A8A7506D895DACFF15814FAA /* [CP] Check Pods Manifest.lock */,
+				23E7D17E22F5E730001129DD /* Sources */,
+				23E7D17F22F5E730001129DD /* Frameworks */,
+				23E7D18022F5E730001129DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E7D18422F5E730001129DD /* PBXTargetDependency */,
+			);
+			name = RelmDatabaseAug309UITests;
+			productName = RelmDatabaseAug309UITests;
+			productReference = 23E7D18222F5E730001129DD /* RelmDatabaseAug309UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23E7D15B22F5E72D001129DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Zin Lin Htet Naing";
+				TargetAttributes = {
+					23E7D16222F5E72D001129DD = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					23E7D17622F5E730001129DD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 23E7D16222F5E72D001129DD;
+					};
+					23E7D18122F5E730001129DD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 23E7D16222F5E72D001129DD;
+					};
+				};
+			};
+			buildConfigurationList = 23E7D15E22F5E72D001129DD /* Build configuration list for PBXProject "RelmDatabaseAug309" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23E7D15A22F5E72D001129DD;
+			productRefGroup = 23E7D16422F5E72D001129DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23E7D16222F5E72D001129DD /* RelmDatabaseAug309 */,
+				23E7D17622F5E730001129DD /* RelmDatabaseAug309Tests */,
+				23E7D18122F5E730001129DD /* RelmDatabaseAug309UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23E7D16122F5E72D001129DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E7D17122F5E730001129DD /* LaunchScreen.storyboard in Resources */,
+				23E7D19722F5F99F001129DD /* TableViewCell.xib in Resources */,
+				23E7D16E22F5E730001129DD /* Assets.xcassets in Resources */,
+				23E7D16C22F5E72D001129DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E7D17522F5E730001129DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E7D18022F5E730001129DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EC035AB8C35D4082F23845D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelmDatabaseAug309-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A6CF84A178E00E768340AFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelmDatabaseAug309/Pods-RelmDatabaseAug309-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelmDatabaseAug309/Pods-RelmDatabaseAug309-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RelmDatabaseAug309/Pods-RelmDatabaseAug309-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A7506D895DACFF15814FAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelmDatabaseAug309UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB3E3F6A1288CA711452C8C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelmDatabaseAug309Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E7D15F22F5E72D001129DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E7D19622F5F99F001129DD /* TableViewCell.swift in Sources */,
+				23E7D19D22F605AD001129DD /* RealmService.swift in Sources */,
+				23E7D16922F5E72D001129DD /* ViewController.swift in Sources */,
+				23E7D16722F5E72D001129DD /* AppDelegate.swift in Sources */,
+				23E7D19922F5FEDE001129DD /* PickUpLine.swift in Sources */,
+				23E7D19B22F601EE001129DD /* AlertService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E7D17322F5E730001129DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E7D17C22F5E730001129DD /* RelmDatabaseAug309Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E7D17E22F5E730001129DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E7D18722F5E730001129DD /* RelmDatabaseAug309UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23E7D17922F5E730001129DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E7D16222F5E72D001129DD /* RelmDatabaseAug309 */;
+			targetProxy = 23E7D17822F5E730001129DD /* PBXContainerItemProxy */;
+		};
+		23E7D18422F5E730001129DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E7D16222F5E72D001129DD /* RelmDatabaseAug309 */;
+			targetProxy = 23E7D18322F5E730001129DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23E7D16A22F5E72D001129DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23E7D16B22F5E72D001129DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23E7D16F22F5E730001129DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23E7D17022F5E730001129DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23E7D18922F5E730001129DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23E7D18A22F5E730001129DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23E7D18C22F5E730001129DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCCEA7D224020EB0B2E862D /* Pods-RelmDatabaseAug309.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = RelmDatabaseAug309/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZLHN.RelmDatabaseAug309;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23E7D18D22F5E730001129DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2BDCB36EEE096824A7096B /* Pods-RelmDatabaseAug309.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = RelmDatabaseAug309/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZLHN.RelmDatabaseAug309;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23E7D18F22F5E730001129DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C2A0C83145FFA69DBDF2BF /* Pods-RelmDatabaseAug309Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = RelmDatabaseAug309Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZLHN.RelmDatabaseAug309Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelmDatabaseAug309.app/RelmDatabaseAug309";
+			};
+			name = Debug;
+		};
+		23E7D19022F5E730001129DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854B2CF6D5B237EBC10BBA13 /* Pods-RelmDatabaseAug309Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = RelmDatabaseAug309Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZLHN.RelmDatabaseAug309Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelmDatabaseAug309.app/RelmDatabaseAug309";
+			};
+			name = Release;
+		};
+		23E7D19222F5E730001129DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2C05C41B53C88CCFDFB523 /* Pods-RelmDatabaseAug309UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = RelmDatabaseAug309UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZLHN.RelmDatabaseAug309UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RelmDatabaseAug309;
+			};
+			name = Debug;
+		};
+		23E7D19322F5E730001129DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974418E10B30217082E1980D /* Pods-RelmDatabaseAug309UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z2FQ8D579;
+				INFOPLIST_FILE = RelmDatabaseAug309UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZLHN.RelmDatabaseAug309UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RelmDatabaseAug309;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23E7D15E22F5E72D001129DD /* Build configuration list for PBXProject "RelmDatabaseAug309" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E7D18922F5E730001129DD /* Debug */,
+				23E7D18A22F5E730001129DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E7D18B22F5E730001129DD /* Build configuration list for PBXNativeTarget "RelmDatabaseAug309" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E7D18C22F5E730001129DD /* Debug */,
+				23E7D18D22F5E730001129DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E7D18E22F5E730001129DD /* Build configuration list for PBXNativeTarget "RelmDatabaseAug309Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E7D18F22F5E730001129DD /* Debug */,
+				23E7D19022F5E730001129DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E7D19122F5E730001129DD /* Build configuration list for PBXNativeTarget "RelmDatabaseAug309UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E7D19222F5E730001129DD /* Debug */,
+				23E7D19322F5E730001129DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23E7D15B22F5E72D001129DD /* Project object */;
+}

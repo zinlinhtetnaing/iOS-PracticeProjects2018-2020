@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C91D70229508BF00EEEEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C91D6F229508BF00EEEEED /* AppDelegate.swift */; };
+		23C91D72229508BF00EEEEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C91D71229508BF00EEEEED /* ViewController.swift */; };
+		23C91D75229508BF00EEEEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C91D73229508BF00EEEEED /* Main.storyboard */; };
+		23C91D77229508C100EEEEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C91D76229508C100EEEEED /* Assets.xcassets */; };
+		23C91D7A229508C100EEEEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C91D78229508C100EEEEED /* LaunchScreen.storyboard */; };
+		23C91D85229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C91D84229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests.swift */; };
+		23C91D90229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C91D8F229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests.swift */; };
+		40557987243CCC1AD25F5477 /* Pods_SqliteLocalDatabaseMay2219Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5641E1634B05854F62BB1E /* Pods_SqliteLocalDatabaseMay2219Tests.framework */; };
+		955E8046150AC826F95B19BB /* Pods_SqliteLocalDatabaseMay2219.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0694915B903C8C14E3E45B /* Pods_SqliteLocalDatabaseMay2219.framework */; };
+		A1720BC24FF3BF5F224DDE41 /* Pods_SqliteLocalDatabaseMay2219UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB691CD4FC703A23417C3CCB /* Pods_SqliteLocalDatabaseMay2219UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23C91D81229508C100EEEEED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C91D64229508BF00EEEEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C91D6B229508BF00EEEEED;
+			remoteInfo = SqliteLocalDatabaseMay2219;
+		};
+		23C91D8C229508C100EEEEED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C91D64229508BF00EEEEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C91D6B229508BF00EEEEED;
+			remoteInfo = SqliteLocalDatabaseMay2219;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C91D6C229508BF00EEEEED /* SqliteLocalDatabaseMay2219.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteLocalDatabaseMay2219.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C91D6F229508BF00EEEEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23C91D71229508BF00EEEEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23C91D74229508BF00EEEEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23C91D76229508C100EEEEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23C91D79229508C100EEEEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23C91D7B229508C100EEEEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C91D80229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteLocalDatabaseMay2219Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C91D84229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteLocalDatabaseMay2219Tests.swift; sourceTree = "<group>"; };
+		23C91D86229508C100EEEEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C91D8B229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteLocalDatabaseMay2219UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C91D8F229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteLocalDatabaseMay2219UITests.swift; sourceTree = "<group>"; };
+		23C91D91229508C100EEEEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5641E1634B05854F62BB1E /* Pods_SqliteLocalDatabaseMay2219Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteLocalDatabaseMay2219Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F782316D46F212D5F02114F /* Pods-SqliteLocalDatabaseMay2219.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLocalDatabaseMay2219.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteLocalDatabaseMay2219/Pods-SqliteLocalDatabaseMay2219.debug.xcconfig"; sourceTree = "<group>"; };
+		6C0694915B903C8C14E3E45B /* Pods_SqliteLocalDatabaseMay2219.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteLocalDatabaseMay2219.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBBC08F3F05DAC76D41F5BE /* Pods-SqliteLocalDatabaseMay2219UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLocalDatabaseMay2219UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteLocalDatabaseMay2219UITests/Pods-SqliteLocalDatabaseMay2219UITests.release.xcconfig"; sourceTree = "<group>"; };
+		72EC59CF08489958CE6FF2D8 /* Pods-SqliteLocalDatabaseMay2219Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLocalDatabaseMay2219Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteLocalDatabaseMay2219Tests/Pods-SqliteLocalDatabaseMay2219Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C004421D192D9F97F9E5769 /* Pods-SqliteLocalDatabaseMay2219.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLocalDatabaseMay2219.release.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteLocalDatabaseMay2219/Pods-SqliteLocalDatabaseMay2219.release.xcconfig"; sourceTree = "<group>"; };
+		AAF620D7DDBEA35ADDC3B964 /* Pods-SqliteLocalDatabaseMay2219UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLocalDatabaseMay2219UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteLocalDatabaseMay2219UITests/Pods-SqliteLocalDatabaseMay2219UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB691CD4FC703A23417C3CCB /* Pods_SqliteLocalDatabaseMay2219UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteLocalDatabaseMay2219UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCF53D03EF3B8E94DC86DBB /* Pods-SqliteLocalDatabaseMay2219Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLocalDatabaseMay2219Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteLocalDatabaseMay2219Tests/Pods-SqliteLocalDatabaseMay2219Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23C91D69229508BF00EEEEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955E8046150AC826F95B19BB /* Pods_SqliteLocalDatabaseMay2219.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C91D7D229508C100EEEEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40557987243CCC1AD25F5477 /* Pods_SqliteLocalDatabaseMay2219Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C91D88229508C100EEEEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1720BC24FF3BF5F224DDE41 /* Pods_SqliteLocalDatabaseMay2219UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C91D63229508BF00EEEEED = {
+			isa = PBXGroup;
+			children = (
+				23C91D6E229508BF00EEEEED /* SqliteLocalDatabaseMay2219 */,
+				23C91D83229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests */,
+				23C91D8E229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests */,
+				23C91D6D229508BF00EEEEED /* Products */,
+				7FD614C507913CFFF56B446C /* Pods */,
+				E0CCB59840F852FBD4B61973 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23C91D6D229508BF00EEEEED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23C91D6C229508BF00EEEEED /* SqliteLocalDatabaseMay2219.app */,
+				23C91D80229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests.xctest */,
+				23C91D8B229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23C91D6E229508BF00EEEEED /* SqliteLocalDatabaseMay2219 */ = {
+			isa = PBXGroup;
+			children = (
+				23C91D6F229508BF00EEEEED /* AppDelegate.swift */,
+				23C91D71229508BF00EEEEED /* ViewController.swift */,
+				23C91D73229508BF00EEEEED /* Main.storyboard */,
+				23C91D76229508C100EEEEED /* Assets.xcassets */,
+				23C91D78229508C100EEEEED /* LaunchScreen.storyboard */,
+				23C91D7B229508C100EEEEED /* Info.plist */,
+			);
+			path = SqliteLocalDatabaseMay2219;
+			sourceTree = "<group>";
+		};
+		23C91D83229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23C91D84229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests.swift */,
+				23C91D86229508C100EEEEED /* Info.plist */,
+			);
+			path = SqliteLocalDatabaseMay2219Tests;
+			sourceTree = "<group>";
+		};
+		23C91D8E229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests */ = {
+			isa = PBXGroup;
+			children = (
+				23C91D8F229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests.swift */,
+				23C91D91229508C100EEEEED /* Info.plist */,
+			);
+			path = SqliteLocalDatabaseMay2219UITests;
+			sourceTree = "<group>";
+		};
+		7FD614C507913CFFF56B446C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F782316D46F212D5F02114F /* Pods-SqliteLocalDatabaseMay2219.debug.xcconfig */,
+				7C004421D192D9F97F9E5769 /* Pods-SqliteLocalDatabaseMay2219.release.xcconfig */,
+				72EC59CF08489958CE6FF2D8 /* Pods-SqliteLocalDatabaseMay2219Tests.debug.xcconfig */,
+				DBCF53D03EF3B8E94DC86DBB /* Pods-SqliteLocalDatabaseMay2219Tests.release.xcconfig */,
+				AAF620D7DDBEA35ADDC3B964 /* Pods-SqliteLocalDatabaseMay2219UITests.debug.xcconfig */,
+				6FBBC08F3F05DAC76D41F5BE /* Pods-SqliteLocalDatabaseMay2219UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0CCB59840F852FBD4B61973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C0694915B903C8C14E3E45B /* Pods_SqliteLocalDatabaseMay2219.framework */,
+				2C5641E1634B05854F62BB1E /* Pods_SqliteLocalDatabaseMay2219Tests.framework */,
+				CB691CD4FC703A23417C3CCB /* Pods_SqliteLocalDatabaseMay2219UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23C91D6B229508BF00EEEEED /* SqliteLocalDatabaseMay2219 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C91D94229508C100EEEEED /* Build configuration list for PBXNativeTarget "SqliteLocalDatabaseMay2219" */;
+			buildPhases = (
+				1FBF6FD326509420BBFE0F51 /* [CP] Check Pods Manifest.lock */,
+				23C91D68229508BF00EEEEED /* Sources */,
+				23C91D69229508BF00EEEEED /* Frameworks */,
+				23C91D6A229508BF00EEEEED /* Resources */,
+				DBEA939388CBF606484EFFE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SqliteLocalDatabaseMay2219;
+			productName = SqliteLocalDatabaseMay2219;
+			productReference = 23C91D6C229508BF00EEEEED /* SqliteLocalDatabaseMay2219.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23C91D7F229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C91D97229508C100EEEEED /* Build configuration list for PBXNativeTarget "SqliteLocalDatabaseMay2219Tests" */;
+			buildPhases = (
+				8E2D79859F3E366C6400F392 /* [CP] Check Pods Manifest.lock */,
+				23C91D7C229508C100EEEEED /* Sources */,
+				23C91D7D229508C100EEEEED /* Frameworks */,
+				23C91D7E229508C100EEEEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C91D82229508C100EEEEED /* PBXTargetDependency */,
+			);
+			name = SqliteLocalDatabaseMay2219Tests;
+			productName = SqliteLocalDatabaseMay2219Tests;
+			productReference = 23C91D80229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23C91D8A229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C91D9A229508C100EEEEED /* Build configuration list for PBXNativeTarget "SqliteLocalDatabaseMay2219UITests" */;
+			buildPhases = (
+				62413BEE796293FE126F7F65 /* [CP] Check Pods Manifest.lock */,
+				23C91D87229508C100EEEEED /* Sources */,
+				23C91D88229508C100EEEEED /* Frameworks */,
+				23C91D89229508C100EEEEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C91D8D229508C100EEEEED /* PBXTargetDependency */,
+			);
+			name = SqliteLocalDatabaseMay2219UITests;
+			productName = SqliteLocalDatabaseMay2219UITests;
+			productReference = 23C91D8B229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23C91D64229508BF00EEEEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Zin Lin Htet Naing";
+				TargetAttributes = {
+					23C91D6B229508BF00EEEEED = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					23C91D7F229508C100EEEEED = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 23C91D6B229508BF00EEEEED;
+					};
+					23C91D8A229508C100EEEEED = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 23C91D6B229508BF00EEEEED;
+					};
+				};
+			};
+			buildConfigurationList = 23C91D67229508BF00EEEEED /* Build configuration list for PBXProject "SqliteLocalDatabaseMay2219" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23C91D63229508BF00EEEEED;
+			productRefGroup = 23C91D6D229508BF00EEEEED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23C91D6B229508BF00EEEEED /* SqliteLocalDatabaseMay2219 */,
+				23C91D7F229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests */,
+				23C91D8A229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C91D6A229508BF00EEEEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C91D7A229508C100EEEEED /* LaunchScreen.storyboard in Resources */,
+				23C91D77229508C100EEEEED /* Assets.xcassets in Resources */,
+				23C91D75229508BF00EEEEED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C91D7E229508C100EEEEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C91D89229508C100EEEEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FBF6FD326509420BBFE0F51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SqliteLocalDatabaseMay2219-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62413BEE796293FE126F7F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SqliteLocalDatabaseMay2219UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2D79859F3E366C6400F392 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SqliteLocalDatabaseMay2219Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBEA939388CBF606484EFFE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SqliteLocalDatabaseMay2219/Pods-SqliteLocalDatabaseMay2219-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SqliteLocalDatabaseMay2219/Pods-SqliteLocalDatabaseMay2219-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C91D68229508BF00EEEEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C91D72229508BF00EEEEED /* ViewController.swift in Sources */,
+				23C91D70229508BF00EEEEED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C91D7C229508C100EEEEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C91D85229508C100EEEEED /* SqliteLocalDatabaseMay2219Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C91D87229508C100EEEEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C91D90229508C100EEEEED /* SqliteLocalDatabaseMay2219UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23C91D82229508C100EEEEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C91D6B229508BF00EEEEED /* SqliteLocalDatabaseMay2219 */;
+			targetProxy = 23C91D81229508C100EEEEED /* PBXContainerItemProxy */;
+		};
+		23C91D8D229508C100EEEEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C91D6B229508BF00EEEEED /* SqliteLocalDatabaseMay2219 */;
+			targetProxy = 23C91D8C229508C100EEEEED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23C91D73229508BF00EEEEED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C91D74229508BF00EEEEED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23C91D78229508C100EEEEED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C91D79229508C100EEEEED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23C91D92229508C100EEEEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23C91D93229508C100EEEEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23C91D95229508C100EEEEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F782316D46F212D5F02114F /* Pods-SqliteLocalDatabaseMay2219.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = SqliteLocalDatabaseMay2219/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.opensource.SqliteLocalDatabaseMay2219;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23C91D96229508C100EEEEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C004421D192D9F97F9E5769 /* Pods-SqliteLocalDatabaseMay2219.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = SqliteLocalDatabaseMay2219/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.opensource.SqliteLocalDatabaseMay2219;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23C91D98229508C100EEEEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EC59CF08489958CE6FF2D8 /* Pods-SqliteLocalDatabaseMay2219Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = SqliteLocalDatabaseMay2219Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.opensource.SqliteLocalDatabaseMay2219Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SqliteLocalDatabaseMay2219.app/SqliteLocalDatabaseMay2219";
+			};
+			name = Debug;
+		};
+		23C91D99229508C100EEEEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCF53D03EF3B8E94DC86DBB /* Pods-SqliteLocalDatabaseMay2219Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = SqliteLocalDatabaseMay2219Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.opensource.SqliteLocalDatabaseMay2219Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SqliteLocalDatabaseMay2219.app/SqliteLocalDatabaseMay2219";
+			};
+			name = Release;
+		};
+		23C91D9B229508C100EEEEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF620D7DDBEA35ADDC3B964 /* Pods-SqliteLocalDatabaseMay2219UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = SqliteLocalDatabaseMay2219UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.opensource.SqliteLocalDatabaseMay2219UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SqliteLocalDatabaseMay2219;
+			};
+			name = Debug;
+		};
+		23C91D9C229508C100EEEEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBBC08F3F05DAC76D41F5BE /* Pods-SqliteLocalDatabaseMay2219UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44YA49F57M;
+				INFOPLIST_FILE = SqliteLocalDatabaseMay2219UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationsios.opensource.SqliteLocalDatabaseMay2219UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SqliteLocalDatabaseMay2219;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23C91D67229508BF00EEEEED /* Build configuration list for PBXProject "SqliteLocalDatabaseMay2219" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C91D92229508C100EEEEED /* Debug */,
+				23C91D93229508C100EEEEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C91D94229508C100EEEEED /* Build configuration list for PBXNativeTarget "SqliteLocalDatabaseMay2219" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C91D95229508C100EEEEED /* Debug */,
+				23C91D96229508C100EEEEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C91D97229508C100EEEEED /* Build configuration list for PBXNativeTarget "SqliteLocalDatabaseMay2219Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C91D98229508C100EEEEED /* Debug */,
+				23C91D99229508C100EEEEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C91D9A229508C100EEEEED /* Build configuration list for PBXNativeTarget "SqliteLocalDatabaseMay2219UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C91D9B229508C100EEEEED /* Debug */,
+				23C91D9C229508C100EEEEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23C91D64229508BF00EEEEED /* Project object */;
+}

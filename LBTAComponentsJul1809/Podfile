@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LBTAComponentsJul1809' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+	
+  # Pods for LBTAComponentsJul1809
+
+  pod "LBTAComponents"
+
+  target 'LBTAComponentsJul1809Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LBTAComponentsJul1809UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

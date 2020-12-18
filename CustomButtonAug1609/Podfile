@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CustomButtonAug1609' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CustomButtonAug1609
+	pod 'MaterialComponents/Buttons'
+
+  target 'CustomButtonAug1609Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CustomButtonAug1609UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

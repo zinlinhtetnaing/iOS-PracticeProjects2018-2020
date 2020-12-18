@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  LocalizationsAutoConvertAug109
+
+  Created by Zin Lin Htet Naing on 8/1/19.
+  Copyright © 2019 Zin Lin Htet Naing. All rights reserved.
+*/
+
+"title" = "Animals";
+"lion" = "Lion";
+"tiger" = "Tiger";
+"rabbit" = "Rabbit";
+"zebra" = "Zebra";
+"horse" = "Horse";
+"cat" = "Cat";
+"pig" = "Pig";
+"goat" = "Goat";
+"monkey" = "Monkey";
+"dog" = "Dog";
+"peacock" = "Peacock";
+"bear" = "Bear";

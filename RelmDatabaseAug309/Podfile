@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RelmDatabaseAug309' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RelmDatabaseAug309
+    pod 'RealmSwift'
+    pod 'RBSRealmBrowser', :configurations => ['Debug']
+
+  target 'RelmDatabaseAug309Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RelmDatabaseAug309UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

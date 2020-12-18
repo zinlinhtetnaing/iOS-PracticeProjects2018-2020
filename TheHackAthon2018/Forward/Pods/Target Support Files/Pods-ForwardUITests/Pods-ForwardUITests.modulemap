@@ -1,0 +1,6 @@
+framework module Pods_ForwardUITests {
+  umbrella header "Pods-ForwardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

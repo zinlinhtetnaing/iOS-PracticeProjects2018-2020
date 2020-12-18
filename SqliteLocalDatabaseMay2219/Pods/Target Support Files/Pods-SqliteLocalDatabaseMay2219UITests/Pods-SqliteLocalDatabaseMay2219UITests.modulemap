@@ -1,0 +1,6 @@
+framework module Pods_SqliteLocalDatabaseMay2219UITests {
+  umbrella header "Pods-SqliteLocalDatabaseMay2219UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

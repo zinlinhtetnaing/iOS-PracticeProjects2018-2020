@@ -1,0 +1,6 @@
+framework module Pods_Forward {
+  umbrella header "Pods-Forward-umbrella.h"
+
+  export *
+  module * { export * }
+}

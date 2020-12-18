@@ -1,0 +1,6 @@
+framework module Pods_FSCalendarJul209 {
+  umbrella header "Pods-FSCalendarJul209-umbrella.h"
+
+  export *
+  module * { export * }
+}

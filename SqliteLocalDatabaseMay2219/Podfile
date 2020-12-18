@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SqliteLocalDatabaseMay2219' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SqliteLocalDatabaseMay2219
+  
+   pod 'SQLite.swift'
+
+  target 'SqliteLocalDatabaseMay2219Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SqliteLocalDatabaseMay2219UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

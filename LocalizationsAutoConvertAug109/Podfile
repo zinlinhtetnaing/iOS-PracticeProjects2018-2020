@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LocalizationsAutoConvertAug109' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LocalizationsAutoConvertAug109
+
+#  pod 'Rabbit-Swift', :git => 'https://github.com/Rabbit-Converter/Rabbit-Swift.git', :branch => 'master'
+
+
+  target 'LocalizationsAutoConvertAug109Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LocalizationsAutoConvertAug109UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

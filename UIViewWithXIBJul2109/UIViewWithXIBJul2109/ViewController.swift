@@ -11,17 +11,17 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var featureView: UIView!
-
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        view.addSubview(featureView)
+        view.addSubview(featureView)
 
-        if let featureView2 = Bundle.main.loadNibNamed("Feature", owner: self, options: nil)?.first as? FeatureView {
-            featureView2.titleLabel.text = "New Feature"
-            featureView2.purchaseButton.addTarget(self, action: #selector(ViewController.purchaseFeature(_:)), for: .touchUpInside)
-            view.addSubview(featureView2)
-        }
+//        if let featureView2 = Bundle.main.loadNibNamed("Feature", owner: self, options: nil)?.first as? FeatureView {
+//            featureView2.titleLabel.text = "New Feature"
+//            featureView2.purchaseButton.addTarget(self, action: #selector(ViewController.purchaseFeature(_:)), for: .touchUpInside)
+//            view.addSubview(featureView2)
+//        }
 
         if let featureView3 = Bundle.main.loadNibNamed("Feature", owner: self, options: nil)?.first as? FeatureView {
             featureView3.frame.origin.y = 200
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         }
 
         if let featureView5 = Bundle.main.loadNibNamed("Feature", owner: self, options: nil)?.first as? FeatureView {
-            featureView5.frame.origin.y = 600
+            featureView5.frame.origin.y = 500
             featureView5.backgroundColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
             featureView5.titleLabel.text = "Another Feature 5"
             featureView5.purchaseButton.addTarget(self, action: #selector(ViewController.anotherFeature3(_:)), for: .touchUpInside)
@@ -59,6 +59,7 @@ class ViewController: UIViewController {
 
     @objc func anotherFeature3(_ sender: UIButton) {
         print("U get Another Feature 3")
+        featureView.removeFromSuperview()
     }
 
 
